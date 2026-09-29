@@ -1,5 +1,4 @@
 
-<body>
 
 <div class="topbar"><span class="bande">★ 10 questions, 10 réponses, 0 garantie ★ Si votre question n'est pas ici, elle est probablement illégale ★</span></div>
 

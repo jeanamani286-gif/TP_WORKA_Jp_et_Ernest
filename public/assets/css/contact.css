@@ -1,0 +1,22 @@
+/* mise en page contact — formulaire principal et informations pratiques */
+.contact-grid{display:grid;grid-template-columns:1fr;gap:34px;align-items:start;margin-bottom:78px}
+.contact-grid .panel{width:100%;margin-bottom:0}
+.contact-form-panel{margin-bottom:28px!important}
+.canaux-panel{margin-bottom:40px!important}
+.contact-form-panel,.canaux-panel,.contact-note{grid-column:1;grid-row:auto}
+.contact-note{text-align:center}
+.contact-note .btn{margin-top:4px}
+.contact-note .btn + .btn{margin-left:10px}
+.contact-separateur{margin:46px 0 40px}
+.contact-photo{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:54px;align-items:center;margin:0 24px 46px 0}
+.contact-photo figure{margin:0 32px 0 0;background:#fff6e5;border:5px solid #3a0f52;border-radius:20px;padding:12px;box-shadow:10px 10px 0 #8ad7f2;transform:rotate(-2deg)}
+.contact-photo img{display:block;width:100%;height:250px;object-fit:cover;border-radius:11px}
+.contact-photo-copy{padding:18px 10px}
+.contact-photo-copy .titre{font-size:clamp(26px,4vw,40px)}
+.contact-visit-cta{position:relative;overflow:hidden;text-align:center;background-image:url("bateau-rose.png");background-size:cover;background-position:center 62%;border-color:#ffd166;box-shadow:10px 10px 0 #ff5d8f;color:#fff6e5;padding:58px 26px;margin:0 0 46px}
+.contact-visit-cta:before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(36,8,48,.88),rgba(58,15,82,.68))}
+.contact-visit-cta:after{content:"✦  ✧  ✦";position:absolute;right:24px;top:12px;color:#ffd166;font-size:28px;letter-spacing:8px}
+.contact-visit-cta > *{position:relative;z-index:1}
+.contact-visit-cta .titre{color:#ffd166;text-shadow:3px 3px 0 #3a0f52}
+.contact-visit-cta p{max-width:58ch;margin:0 auto 20px;color:#f2e4fb}
+.contact-visit-cta p a{color:#8ad7f2}

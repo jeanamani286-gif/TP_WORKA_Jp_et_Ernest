@@ -1,0 +1,5 @@
+.formulaire label{display:block;font-weight:bold;margin:14px 0 4px;color:#3a0f52}
+.formulaire input,.formulaire select,.formulaire textarea{width:100%;font-family:Verdana,sans-serif;font-size:14px;padding:10px 12px;border:3px solid #3a0f52;border-radius:12px;background:#fff}
+.formulaire textarea{min-height:120px;resize:vertical}
+.formulaire input:focus,.formulaire select:focus,.formulaire textarea:focus{outline:3px solid #8ad7f2;outline-offset:2px}
+.formulaire .obligatoire{font-size:12px;color:#7a3b5c;margin:0 0 12px}

@@ -1,6 +1,4 @@
 
-<body>
-
 <div class="topbar"><span class="bande">★ Bienvenue à la Wonka Chocolate Factory ★ Il reste 5 Golden Tickets cachés cette année ★ Livraison par pigeons entraînés ★ Ni repris, ni échangé, ni remboursé en bonbons ★ Le service expédition chante pendant le travail ★</span></div>
 
 <header class="site">
@@ -333,4 +331,3 @@
     </div>
   </div>
 </section>
-      </body>
