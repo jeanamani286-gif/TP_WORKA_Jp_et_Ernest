@@ -1,0 +1,11 @@
+# Une seule définition pour les 8 fiches : le titre, la description, le fil d'Ariane
+# et le JSON-LD sont complétés par ProductController à partir de data/products/{slug}.yaml
+template: product/show
+nav: /produits
+author: Atelier Wonka
+og_type: product
+styles:
+  - /assets/css/pages/product.css
+scripts:
+  - /assets/js/product-actions.js
+cache_control: public, max-age=300

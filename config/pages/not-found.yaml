@@ -1,0 +1,12 @@
+template: page/not-found
+nav: null
+title: Page introuvable - Wonka Chocolate Factory
+description: Cette page n'existe pas, ou a été mangée.
+og_type: website
+topbar: "★ Erreur 404 ★ Cette page a probablement été mangée ★ Vérifiez l'adresse ou retournez à l'accueil ★"
+breadcrumb:
+  - label: Accueil
+    url: /
+  - label: Page introuvable
+styles: []
+scripts: []

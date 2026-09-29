@@ -1,12 +1,73 @@
-name: wonka-app
-version: "1.0.0"
-environment: development
-server:
-  host: 0.0.0.0
-  port: 8080
-logging:
-  level: info
-  format: json
+
 features:
   debug: false
   metrics: true
+
+# Identité du site (utilisée par le layout, les partials et le JSON-LD)
+site:
+  name: Wonka Chocolate Factory
+  short_name: Wonka
+  domain: https://www.wonka-chocolate-factory.example
+  slogan: Un peu de non-sens, beaucoup de chocolat.
+  locale: fr_FR
+  logo: /assets/images/logo-wonka.png
+  founding_date: "1971"
+  founder: Willy Wonka
+  founder_title: Fondateur et goûteur en chef
+  address:
+    street: 14 boulevard du Cacao Fou
+    postal_code: "1971"
+    city: Chocolatville-sur-Rivière
+    country: FR
+  phone: "+33-1-WONKA-71"
+  hours:
+    - "Lundi – Vendredi : 9h – 18h"
+    - "Samedi : 10h – 16h"
+    - "Dimanche : fermé"
+  opening_hours: "Mo-Fr 09:00-18:00"
+
+# Menu principal (une seule définition pour toutes les pages)
+menu:
+  - label: Accueil
+    url: /
+  - label: Produits
+    url: /produits
+  - label: Visiter l'usine
+    url: /visite-usine
+  - label: Notre histoire
+    url: /histoire
+  - label: FAQ
+    url: /faq
+  - label: Contact
+    url: /contact
+
+# Pied de page
+footer:
+  help_title: Besoin d'aide ?
+  links:
+    - label: Foire aux questions
+      url: /faq
+    - label: Nous contacter
+      url: /contact
+    - label: Mentions légales
+      url: /mentions-legales
+    - label: Travailler à l'usine
+      url: /recrutement
+    - label: Trouver un Golden Ticket
+      url: /golden-ticket
+  legal: "© 1971-2026 Wonka Chocolate Factory — Tous droits réservés, y compris ceux qui n'existent pas encore. Aucun Oompa Loompa n'a été consulté pour la rédaction de ce site. Les chansons du service expédition sont comprises dans le prix."
+
+# Feuilles de style chargées sur toutes les pages (les pages ajoutent les leurs via `styles`)
+assets:
+  styles:
+    - /assets/css/tokens.css
+    - /assets/css/bases.css
+    - /assets/css/layout.css
+    - /assets/css/components/buttons.css
+    - /assets/css/components/panel.css
+    - /assets/css/components/badge.css
+    - /assets/css/components/card.css
+    - /assets/css/components/faq.css
+    - /assets/css/components/table.css
+  scripts:
+    - /assets/js/effects.js

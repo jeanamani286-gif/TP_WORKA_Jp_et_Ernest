@@ -1,0 +1,17 @@
+path: /mentions-legales
+template: page/mentions-legales
+nav: null
+title: Mentions légales - Wonka Chocolate Factory
+description: Mentions légales, éditeur du site, hébergement, propriété intellectuelle et conditions générales de dégustation de la chocolaterie Wonka.
+author: Direction juridique Wonka (une personne)
+og_type: website
+og_title: Mentions légales - Wonka Chocolate Factory
+og_description: Informations légales de la chocolaterie. Page obligatoire, lue par personne.
+topbar: "★ Document légal ★ Version 12 ★ Modifiée pour la dernière fois par quelqu'un de très pressé ★"
+breadcrumb:
+  - label: Accueil
+    url: /
+  - label: Mentions légales
+styles:
+  - /assets/css/pages/mentions-legales.css
+scripts: []

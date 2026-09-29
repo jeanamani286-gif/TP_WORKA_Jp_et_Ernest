@@ -1,0 +1,19 @@
+# Anciennes URL *.html → nouvelles URL (redirection 301)
+/index.html: /
+/produits.html: /produits
+/confiseries-experimentales.html: /produits
+/histoire.html: /histoire
+/faq.html: /faq
+/contact.html: /contact
+/visite-usine.html: /visite-usine
+/golden-ticket.html: /golden-ticket
+/recrutement.html: /recrutement
+/mentions-legales.html: /mentions-legales
+/wonka-bar.html: /produits/wonka-bar
+/everlasting-gobstopper.html: /produits/everlasting-gobstopper
+/fizzy-lifting-drink.html: /produits/fizzy-lifting-drink
+/three-course-dinner-gum.html: /produits/three-course-dinner-gum
+/lickable-wallpaper.html: /produits/lickable-wallpaper
+/golden-egg.html: /produits/golden-egg
+/scrumdiddlyumptious-bar.html: /produits/scrumdiddlyumptious-bar
+/invisible-chocolate.html: /produits/invisible-chocolate

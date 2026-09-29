@@ -1,0 +1,14 @@
+# Dépendances et caches
+/vendor/
+/node_modules/
+/var/
+*.cache
+# Fichiers d'environnement et système
+.env
+.env.*
+.DS_Store
+Thumbs.db
+# IDE
+.idea/
+.vscode/
+*.swp

@@ -1,0 +1,17 @@
+path: /histoire
+template: page/histoire
+nav: /histoire
+title: Notre histoire - La Wonka Chocolate Factory depuis 1971
+description: "L'histoire de la chocolaterie Wonka : la première boutique, le vol des recettes, les années de silence, la réouverture et l'arrivée des Oompa Loompas."
+author: Archives Wonka
+og_type: article
+og_title: L'histoire de la Wonka Chocolate Factory - 55 ans de cacao
+og_description: De la petite boutique de la rue Haute au plus grand secret industriel de Chocolatville.
+topbar: "★ 1971 – 2026 ★ 55 ans de cacao, 12 ans de silence, 1 seule recette vraiment secrète ★"
+breadcrumb:
+  - label: Accueil
+    url: /
+  - label: Notre histoire
+styles:
+  - /assets/css/pages/histoire.css
+scripts: []

@@ -1,0 +1,18 @@
+path: /contact
+template: page/contact
+nav: /contact
+title: Contact - Écrire à la Wonka Chocolate Factory
+description: "Contacter la chocolaterie Wonka : téléphone, courrier postal, pigeon voyageur et formulaire de contact. Réponse sous 3 à 5 jours ouvrés."
+author: Service client Wonka
+og_type: website
+og_title: Contacter la chocolaterie Wonka - le bureau des lettres
+og_description: Un formulaire, un téléphone, un gardien muet et un pigeon. Choisissez votre canal.
+topbar: "★ Réponse sous 3 à 5 jours ouvrés ★ Sauf si une expérience tourne mal : comptez 9 jours ★"
+breadcrumb:
+  - label: Accueil
+    url: /
+  - label: Contact
+styles:
+  - /assets/css/pages/contact.css
+scripts:
+  - /assets/js/contact-form.js

@@ -1,0 +1,18 @@
+path: /recrutement
+template: page/recrutement
+nav: null
+title: Travailler à l'usine - Offres d'emploi Wonka Chocolate Factory
+description: "Les offres d'emploi de la chocolaterie Wonka : goûteur, polisseur de bonbons, chanteur de couloir, gardien de l'entrée. Conditions et processus de recrutement."
+author: Ressources humaines Wonka (une personne, à mi-temps)
+og_type: website
+og_title: Travailler à la chocolaterie Wonka - 4 postes ouverts
+og_description: Goûteurs, polisseurs, chanteurs. Paiement en euros pour les humains, en fèves pour les autres.
+topbar: "★ 4 postes ouverts ★ Le chant n'est pas optionnel ★ Les humains sont payés en euros ★"
+breadcrumb:
+  - label: Accueil
+    url: /
+  - label: Travailler à l'usine
+styles:
+  - /assets/css/pages/recrutement.css
+scripts:
+  - /assets/js/recrutement.js

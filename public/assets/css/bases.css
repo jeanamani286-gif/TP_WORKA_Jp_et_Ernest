@@ -1,0 +1,12 @@
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  color: var(--wonka-ink);
+  background: var(--wonka-cream);
+  font: 16px/1.65 Verdana, "Trebuchet MS", sans-serif;
+}
+a { color: #a3256b; }
+img { max-width: 100%; height: auto; }
+button, input, textarea, select { font: inherit; }
+:focus-visible { outline: 3px solid var(--wonka-berry); outline-offset: 3px; }

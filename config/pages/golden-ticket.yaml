@@ -1,0 +1,17 @@
+path: /golden-ticket
+template: page/golden-ticket
+nav: /produits
+title: Golden Ticket - 5 tickets par an | Wonka Chocolate Factory
+description: "Tout savoir sur le Golden Ticket : où le trouver, ce qu'il donne droit et le règlement officiel des cinq tickets annuels."
+author: Bureau des tickets Wonka
+og_type: website
+og_title: Golden Ticket - cinq par an, pas un de plus
+og_description: Dans une barre, dans un œuf doré. Choisissez votre méthode.
+topbar: "★ 5 Golden Tickets par an ★ 2 déjà trouvés cette année ★ 3 encore cachés ★ Ni repris, ni échangé, ni remboursé en bonbons ★"
+breadcrumb:
+  - label: Accueil
+    url: /
+  - label: Golden Ticket
+styles:
+  - /assets/css/pages/golden-ticket.css
+scripts: []

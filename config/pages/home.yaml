@@ -1,0 +1,22 @@
+path: /
+template: page/home
+nav: /
+title: Wonka Chocolate Factory - Accueil officiel de la chocolaterie
+description: "Bienvenue à la Wonka Chocolate Factory : chocolats, confiseries expérimentales, boissons qui font flotter et cinq Golden Tickets cachés chaque année."
+author: Service communication Wonka
+og_type: website
+og_title: Wonka Chocolate Factory - La chocolaterie la plus étrange du monde
+og_description: "Chocolats, confiseries expérimentales et visites d'usine. Entrée uniquement sur Golden Ticket."
+topbar: "★ Bienvenue à la Wonka Chocolate Factory ★ Il reste 5 Golden Tickets cachés cette année ★ Livraison par pigeons entraînés ★ Ni repris, ni échangé, ni remboursé en bonbons ★ Le service expédition chante pendant le travail ★"
+breadcrumb:
+  - label: Accueil
+styles:
+  - /assets/css/pages/home.css
+scripts: []
+# Produits mis en avant sur la page d'accueil (slugs, dans l'ordre d'affichage)
+featured:
+  - wonka-bar
+  - everlasting-gobstopper
+  - fizzy-lifting-drink
+  - scrumdiddlyumptious-bar
+organization_jsonld: true
