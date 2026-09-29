@@ -3,7 +3,7 @@
 
 <header class="site">
   <div class="wrap">
-    <p class="logo"><a href="index.html" aria-label="Wonka Chocolate Factory - Accueil"><img src="logo-wonka.png" alt="Wonka Chocolate Factory" width="2000" height="1125"></a></p>
+    <p class="logo"><a href="index.html" aria-label="Wonka Chocolate Factory - Accueil"><img src="../public/assets/images/logo-wonka.png" alt="Wonka Chocolate Factory" width="2000" height="1125"></a></p>
     <input type="checkbox" id="menu-toggle" class="menu-toggle">
     <label for="menu-toggle" class="burger" aria-label="Ouvrir le menu"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
   <path d="M4 6l16 0" />
@@ -11,19 +11,19 @@
   <path d="M4 18l16 0" />
 </svg></label>
     <nav class="main">
-      <a href="index.html">Accueil</a>
-      <a href="produits.html">Produits</a>
-      <a href="visite-usine.html">Visiter l'usine</a>
-      <a href="histoire.html">Notre histoire</a>
-      <a href="faq.html">FAQ</a>
-      <a href="contact.html">Contact</a>
+      <a href="accueil.php">Accueil</a>
+      <a href="produits.php">Produits</a>
+      <a href="visite-usine.php">Visiter l'usine</a>
+      <a href="histoire.php">Notre histoire</a>
+      <a href="faq.php">FAQ</a>
+      <a href="contact.php">Contact</a>
     </nav>
   </div>
 </header>
 <script>
 (function(){
-  var page = location.pathname.split('/').pop() || 'index.html';
-  var parents = { 'wonka-bar.html':'produits.html', 'everlasting-gobstopper.html':'produits.html', 'fizzy-lifting-drink.html':'produits.html', 'three-course-dinner-gum.html':'produits.html', 'lickable-wallpaper.html':'produits.html', 'golden-egg.html':'produits.html', 'scrumdiddlyumptious-bar.html':'produits.html', 'invisible-chocolate.html':'produits.html' };
+  var page = location.pathname.split('/').pop() || 'accueil.php';
+  var parents = { 'wonka-bar.php':'produits.php', 'everlasting-gobstopper.php':'produits.php', 'fizzy-lifting-drink.php':'produits.php', 'three-course-dinner-gum.php':'produits.php', 'lickable-wallpaper.php':'produits.php', 'golden-egg.php':'produits.php', 'scrumdiddlyumptious-bar.php':'produits.php', 'invisible-chocolate.php':'produits.php' };
   var cible = parents[page] || page;
   var liens = document.querySelectorAll('nav.main a');
   for (var i = 0; i < liens.length; i++) {
@@ -42,7 +42,7 @@
       <h1>La chocolaterie<br>la plus <em>étrange</em><br>du monde.</h1>
       <p class="lead">Du chocolat qui fond dans le bon sens, des bonbons qui ne fondent jamais, des boissons qui vous font toucher le plafond. Tout est fabriqué à la main par des personnes très petites et très motivées.</p>
       <p>
-        <a href="produits.html" class="btn btn-vert">Voir les chocolats</a>
+        <a href="produits.php" class="btn btn-vert">Voir les chocolats</a>
       </p>
     </div>
     <div>
