@@ -1,0 +1,137 @@
+/* FEUILLE DE STYLE WONKA — copiée depuis index.html (variante "visite", ombres jaunes) */
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;color:#3b1a2b;font-family:Verdana,"Trebuchet MS",Tahoma,sans-serif;font-size:15px;line-height:1.65;
+ background-color:#fff2d6;
+ background-image:radial-gradient(#ff9ec4 2px,transparent 3px),radial-gradient(#8ad7f2 2px,transparent 3px),repeating-linear-gradient(135deg,#ffe9b8 0 26px,#fff8e6 26px 52px);
+ background-size:66px 66px,66px 66px,auto;background-position:0 0,33px 33px,0 0;background-attachment:fixed}
+h1,h2,h3,h4,.logo,.btn,.badge,.prix{font-family:"Cooper Black","Bookman Old Style",Rockwell,Georgia,serif;font-weight:400;letter-spacing:.3px}
+a{color:#a3256b}
+.wrap{max-width:1100px;margin:0 auto;padding:0 16px}
+
+/* bandeau défilant */
+.topbar{overflow:hidden;background:#d7255c;color:#fff6e5;font-size:12px;letter-spacing:2px;text-transform:uppercase}
+.topbar .bande{display:inline-block;white-space:nowrap;padding:7px 0;animation:defile 30s linear infinite}
+@keyframes defile{0%{transform:translateX(100vw)}100%{transform:translateX(-100%)}}
+
+/* en-tête */
+header.site{background:linear-gradient(180deg,#4a1163,#31093f);border-bottom:3px solid #ffd166;padding:0;position:relative}
+header.site:before{content:"";display:block;height:6px;background:repeating-linear-gradient(90deg,#ff5d8f 0 26px,#ffd166 26px 52px,#41e0a3 52px 78px,#8ad7f2 78px 104px)}
+.logo{margin:0}
+.logo img{position:relative;z-index:5;display:block;width:auto;height:80px;margin-bottom:-36px}@media(max-width:1020px){.logo img{height:70px;margin-bottom:-30px}}@media(max-width:920px){.logo img{height:58px;margin-bottom:-24px}}header.site .wrap{max-width:1100px;display:flex;align-items:center;flex-wrap:wrap;gap:14px;min-height:66px}.menu-toggle{position:absolute;width:1px;height:1px;opacity:0}.burger{display:none;margin-left:auto;color:#ffd166;font-size:24px;line-height:1;cursor:pointer;padding:10px 2px;user-select:none}
+nav.main{display:flex;align-items:center;gap:4px;margin-left:auto}@media(max-width:920px){.burger{display:inline-flex}nav.main{display:none;flex-direction:column;align-items:stretch;gap:2px;width:100%;margin:0;padding:28px 0 14px}nav.main a{padding:12px 16px;border-radius:12px}.menu-toggle:checked~nav.main{display:flex}}
+nav.main a{color:#efe1fb;text-decoration:none;font-weight:bold;font-size:clamp(9.5px,.92vw,11.5px);text-transform:uppercase;letter-spacing:.4px;padding:.65em .95em;border-radius:999px;white-space:nowrap;transition:background .15s,color .15s}
+nav.main a:hover{background:rgba(255,209,102,.16);color:#ffd166}nav.main a[aria-current=page]{background:#1e0530;color:#fff6e5;box-shadow:inset 0 0 0 2px #8a35a8}.logo a{display:block;line-height:0}
+
+/* boutons */
+.btn{display:inline-block;text-decoration:none;border:4px solid #3a0f52;border-radius:14px;padding:12px 22px;font-size:16px;cursor:pointer;box-shadow:6px 6px 0 #3a0f52;transition:transform .12s,box-shadow .12s;background:#ffd166;color:#3a0f52;text-align:center}
+.btn:hover{transform:translate(-3px,-3px);box-shadow:9px 9px 0 #3a0f52}
+.btn:active{transform:translate(3px,3px);box-shadow:2px 2px 0 #3a0f52}
+.btn-ticket{background:linear-gradient(#ffe066,#ffb703);font-size:19px;animation:brille 2.4s ease-in-out infinite}
+.btn-rose{background:#ff5d8f;color:#fff6e5}
+.btn-vert{background:#41e0a3}
+.btn-bleu{background:#8ad7f2}
+.btn-petit{font-size:13px;padding:8px 14px;box-shadow:4px 4px 0 #3a0f52;border-width:3px}
+@keyframes brille{0%,100%{filter:brightness(1)}50%{filter:brightness(1.18) saturate(1.25)}}
+
+/* panneaux & séparateurs */
+.panel{background:#fff6e5;border:5px solid #3a0f52;border-radius:26px;box-shadow:10px 10px 0 #ffd166;padding:30px;margin:0 0 52px}
+.panel.vert{box-shadow:10px 10px 0 #41e0a3}
+.panel.rose{box-shadow:10px 10px 0 #ff5d8f}
+.panel.violet{box-shadow:10px 10px 0 #b07bd8}
+.titre{font-size:clamp(26px,4.6vw,40px);margin:0 0 8px;color:#3a0f52;text-shadow:3px 3px 0 #ffd166}
+.sous-titre{font-size:15px;margin:0 0 22px;color:#7a5a2b}
+hr.bonbon{border:0;height:8px;background:repeating-linear-gradient(90deg,#ff5d8f 0 16px,#ffd166 16px 32px,#41e0a3 32px 48px,#8ad7f2 48px 64px);border-radius:8px;margin:56px auto;max-width:1100px}
+.tapis{overflow:hidden;background:#3a0f52;border:5px solid #3a0f52;border-radius:18px;margin:0 0 52px}
+.tapis .bande-c{white-space:nowrap;font-size:40px;padding:10px 0;animation:tapis 18s linear infinite;color:#ffd166}
+@keyframes tapis{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+.badge{display:inline-block;background:#ff5d8f;color:#fff6e5;border:3px solid #3a0f52;border-radius:999px;padding:3px 11px;font-size:11px;text-transform:uppercase;letter-spacing:1px;box-shadow:3px 3px 0 #3a0f52}
+.badge.vert{background:#41e0a3;color:#123a2c}
+.badge.jaune{background:#ffd166;color:#5a3a00}
+.badge.clignote{animation:clignote 1s steps(2) infinite}
+@keyframes clignote{50%{opacity:.25}}
+
+/* faq */
+.faq details{background:#fff;border:3px solid #3a0f52;border-radius:14px;margin-bottom:10px}
+.faq summary{cursor:pointer;font-weight:bold;padding:12px 14px;background:#ffe8f0;border-radius:10px}
+.faq details[open] summary{background:#ffd166}
+.faq p{padding:6px 14px 14px;margin:0}
+
+/* pied de page */
+footer.site{background:#3a0f52;color:#ffe8f0;border-top:7px solid #ffd166;padding:34px 16px 20px;margin-top:72px}
+footer.site .colonnes{display:grid;gap:24px;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));max-width:1100px;margin:0 auto}
+footer.site h4{color:#ffd166;font-size:18px;margin:0 0 8px}
+footer.site a{color:#8ad7f2}
+footer.site .absurde{max-width:1100px;margin:22px auto 0;font-size:12px;font-style:italic;color:#d8b6ea;border-top:2px dotted #8a35a8;padding-top:12px}
+
+/* ===== SPECIFIQUE PAGE VISITE ===== */
+.fil{font-size:12px;text-transform:uppercase;letter-spacing:1px;margin:28px 0 22px;color:#7a5a2b}
+.fil a{color:#3a0f52}
+
+/* bandeau titre de page */
+.bandeau-page{position:relative;overflow:hidden;background:linear-gradient(140deg,#5c1580 0%,#4b1063 46%,#2e0843 100%);border:5px solid #3a0f52;border-radius:26px;padding:46px 28px 42px;margin:0 0 52px;box-shadow:10px 10px 0 #ffd166;text-align:center}
+.bandeau-page:before{content:"";position:absolute;inset:12px;border:1px solid rgba(255,209,102,.35);border-radius:17px;pointer-events:none}
+.bandeau-page:after{content:"";position:absolute;inset:0;background:radial-gradient(420px 210px at 86% -14%,rgba(255,209,102,.22),transparent 65%),radial-gradient(440px 260px at 5% 114%,rgba(255,93,143,.2),transparent 65%),radial-gradient(340px 170px at 50% -12%,rgba(138,215,242,.13),transparent 65%);pointer-events:none}
+.bandeau-page .badge{position:relative;z-index:1;margin-bottom:14px}
+.bandeau-page h1{position:relative;z-index:1;font-family:"Cooper Black",Rockwell,Georgia,serif;font-weight:400;font-size:clamp(32px,6vw,54px);margin:0;letter-spacing:.5px;background:linear-gradient(180deg,#fff3cf,#ffd166 52%,#e8a63d);-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent;filter:drop-shadow(0 3px 0 rgba(31,5,49,.55))}
+.bandeau-page h1:after{content:"";display:block;width:min(190px,58%);height:4px;margin:16px auto 12px;border-radius:999px;background:linear-gradient(90deg,transparent,#ff5d8f 22%,#ffd166 50%,#41e0a3 78%,transparent)}
+.bandeau-page p{position:relative;z-index:1;color:#f2e4fb;margin:0 auto;max-width:62ch;letter-spacing:.25px}
+.bandeau-page .btn{margin:20px 6px 0}
+
+/* vitrine photo sous le bandeau */
+.vitrine{display:grid;gap:22px;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));margin:0 0 12px}
+.vitrine-photo{margin:0;background:#fff6e5;border:4px solid #3a0f52;border-radius:18px;padding:12px;box-shadow:9px 9px 0 #ff5d8f;transform:rotate(-1.2deg)}
+.vitrine-photo:nth-child(2){transform:rotate(.9deg);box-shadow:9px 9px 0 #41e0a3}
+.vitrine-photo:nth-child(3){transform:rotate(-.7deg);box-shadow:9px 9px 0 #8ad7f2}
+.vitrine-photo img{display:block;width:100%;height:190px;object-fit:cover;border-radius:10px;border:2px solid rgba(58,15,82,.25)}
+.vitrine-photo figcaption{font-size:12px;text-transform:uppercase;letter-spacing:1px;color:#7a3b5c;text-align:center;margin-top:10px}
+
+/* infos pratiques + horaires */
+.carac{width:100%;border-collapse:collapse;background:#fff;border:4px solid #3a0f52;border-radius:16px;overflow:hidden}
+.carac th,.carac td{border-bottom:2px dotted #c99;padding:9px 12px;text-align:left;font-size:14px;vertical-align:top}
+.carac th{background:#ffe8f0;width:38%;font-family:Verdana,sans-serif;font-weight:bold;color:#3a0f52}
+.carac th .ico-th{display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;vertical-align:-4px;margin-right:6px;color:#3a0f52}
+.carac th .ico-th svg{width:18px;height:18px}
+.horaires{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+@media(max-width:880px){.horaires{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:520px){.horaires{grid-template-columns:1fr}}
+.horaire{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;background:#fff;border:3px solid #3a0f52;border-radius:14px;padding:16px 10px;text-align:center;box-shadow:5px 5px 0 #ff5d8f}
+.horaire .ico{flex:none;width:36px;height:36px;border-radius:10px;border:3px solid #3a0f52;background:#ffe8f0;color:#3a0f52;display:flex;align-items:center;justify-content:center}
+.horaire .ico svg{width:20px;height:20px}
+.horaire strong{font-size:13px;line-height:1.2}
+.horaire span{font-size:13px;line-height:1.3}
+
+/* bannière rivière de chocolat */
+.hero-riviere{position:relative;border:5px solid #3a0f52;border-radius:26px;overflow:hidden;box-shadow:10px 10px 0 #8ad7f2;padding:64px 26px;text-align:center;background-image:url("rivere-chocolat.png");background-size:cover;background-position:center;margin:0 0 52px}
+.hero-riviere:before{content:"";position:absolute;top:0;left:0;width:100%;height:100%;background:linear-gradient(180deg,rgba(23,9,3,.88),rgba(64,29,12,.58))}
+.hero-riviere h2{position:relative;color:#fff6e5;text-shadow:3px 3px 0 #3a0f52;margin:0 0 12px;font-size:clamp(26px,4.6vw,42px)}
+.hero-riviere p{position:relative;color:#fff6e5;font-weight:bold;text-shadow:1px 1px 0 #3a0f52;max-width:56ch;margin:0 auto 20px}
+
+/* bloc parcours : étapes à gauche, photos à droite */
+.visite-bloc{display:grid;gap:26px;grid-template-columns:3fr 2fr;align-items:start;margin-top:28px;margin-bottom:12px}
+@media(max-width:880px){.visite-bloc{grid-template-columns:1fr}}
+.etapes{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+.etape{background:#fff;border:4px solid #3a0f52;border-radius:18px;padding:18px;box-shadow:7px 7px 0 #41e0a3}
+.etape .n{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;border-radius:50%;background:#ff5d8f;color:#fff6e5;border:3px solid #3a0f52;font-family:"Cooper Black",Georgia,serif;font-size:20px;margin-bottom:8px}
+.etape-entete{display:flex;align-items:center;gap:10px;margin-bottom:8px}
+.etape-entete .n{margin-bottom:0}
+.etape-entete .ico{flex:none;width:36px;height:36px;display:flex;align-items:center;justify-content:center;background:#ffe8f0;border:3px solid #3a0f52;border-radius:12px;color:#3a0f52}
+.etape-entete .ico svg{width:22px;height:22px}
+.visite-photos{display:grid;gap:34px;justify-content:end}
+@media(max-width:880px){.visite-photos{justify-content:center}}
+.visite-photo{margin:0;background:#fff6e5;border:5px solid #3a0f52;border-radius:18px;padding:14px;box-shadow:12px 12px 0 #8ad7f2;transform:rotate(2deg);max-width:320px}
+.visite-photo:nth-child(2){transform:rotate(-2deg);box-shadow:12px 12px 0 #ff5d8f}
+.visite-photo img{display:block;width:100%;height:auto;border-radius:10px}
+.visite-photo figcaption{font-size:12px;text-transform:uppercase;letter-spacing:1px;color:#7a3b5c;text-align:center;margin-top:10px}
+
+/* règlement intérieur avec icônes */
+.regles{list-style:none;padding:0;margin:0}
+.regles li{display:flex;align-items:center;gap:12px;background:#fff;border:3px solid #3a0f52;border-radius:14px;padding:10px 14px;margin-bottom:10px;box-shadow:5px 5px 0 #ffd166}
+.regles .n{flex:none;width:32px;height:32px;border-radius:50%;background:#ff5d8f;color:#fff6e5;border:3px solid #3a0f52;font-family:"Cooper Black","Bookman Old Style",Rockwell,Georgia,serif;font-size:16px;display:flex;align-items:center;justify-content:center}
+.regles .ico{flex:none;width:36px;height:36px;display:flex;align-items:center;justify-content:center;background:#ffe8f0;border:3px solid #3a0f52;border-radius:12px;color:#3a0f52}
+.regles .ico svg{width:22px;height:22px}
+.regles p{margin:0;font-size:14px}
+.avertissement{background:#fff3cd;border:4px dashed #c1121f;border-radius:16px;padding:14px 16px;margin:16px 0 0;font-weight:bold}
+
+.reveal{opacity:0;transform:translateY(26px);transition:opacity .7s,transform .7s}
+.reveal.vu{opacity:1;transform:none}</style>

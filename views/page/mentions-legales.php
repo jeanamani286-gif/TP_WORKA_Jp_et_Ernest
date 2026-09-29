@@ -14,55 +14,6 @@
 <meta property="og:url" content="https://www.wonka-chocolate-factory.example/mentions-legales.html">
 <meta property="og:site_name" content="Wonka Chocolate Factory">
 <meta property="og:locale" content="fr_FR">
-<style>
-/* FEUILLE DE STYLE WONKA — copiée depuis index.html (variante "légale", sobre… enfin, presque) */
-*{box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{margin:0;color:#3b1a2b;font-family:Verdana,"Trebuchet MS",Tahoma,sans-serif;font-size:15px;line-height:1.7;
- background-color:#f1ecf6;
- background-image:radial-gradient(#d9c7ea 2px,transparent 3px),repeating-linear-gradient(135deg,#efe7f7 0 24px,#f8f4fc 24px 48px);
- background-size:52px 52px,auto;background-position:0 0,0 0;background-attachment:fixed}
-h1,h2,h3,h4,.logo,.btn,.badge{font-family:"Cooper Black","Bookman Old Style",Rockwell,Georgia,serif;font-weight:400;letter-spacing:.3px}
-a{color:#a3256b}
-.wrap{max-width:1100px;margin:0 auto;padding:0 16px}
-.topbar{overflow:hidden;background:#d7255c;color:#fff6e5;font-size:12px;letter-spacing:2px;text-transform:uppercase}
-.topbar .bande{display:inline-block;white-space:nowrap;padding:7px 0;animation:defile 32s linear infinite}
-@keyframes defile{0%{transform:translateX(100vw)}100%{transform:translateX(-100%)}}
-header.site{background:linear-gradient(180deg,#4a1163,#31093f);border-bottom:3px solid #ffd166;padding:0;position:relative}
-header.site:before{content:"";display:block;height:6px;background:repeating-linear-gradient(90deg,#ff5d8f 0 26px,#ffd166 26px 52px,#41e0a3 52px 78px,#8ad7f2 78px 104px)}
-.logo{margin:0}
-.logo img{position:relative;z-index:5;display:block;width:auto;height:80px;margin-bottom:-36px}@media(max-width:1020px){.logo img{height:70px;margin-bottom:-30px}}@media(max-width:920px){.logo img{height:58px;margin-bottom:-24px}}header.site .wrap{max-width:1100px;display:flex;align-items:center;flex-wrap:wrap;gap:14px;min-height:66px}.menu-toggle{position:absolute;width:1px;height:1px;opacity:0}.burger{display:none;margin-left:auto;color:#ffd166;font-size:24px;line-height:1;cursor:pointer;padding:10px 2px;user-select:none}
-nav.main{display:flex;align-items:center;gap:4px;margin-left:auto}@media(max-width:920px){.burger{display:inline-flex}nav.main{display:none;flex-direction:column;align-items:stretch;gap:2px;width:100%;margin:0;padding:28px 0 14px}nav.main a{padding:12px 16px;border-radius:12px}.menu-toggle:checked~nav.main{display:flex}}
-nav.main a{color:#efe1fb;text-decoration:none;font-weight:bold;font-size:clamp(9.5px,.92vw,11.5px);text-transform:uppercase;letter-spacing:.4px;padding:.65em .95em;border-radius:999px;white-space:nowrap;transition:background .15s,color .15s}
-nav.main a:hover{background:rgba(255,209,102,.16);color:#ffd166}nav.main a[aria-current=page]{background:#1e0530;color:#fff6e5;box-shadow:inset 0 0 0 2px #8a35a8}.logo a{display:block;line-height:0}
-.btn{display:inline-block;text-decoration:none;border:4px solid #3a0f52;border-radius:14px;padding:12px 22px;font-size:16px;cursor:pointer;box-shadow:6px 6px 0 #3a0f52;background:#ffd166;color:#3a0f52;text-align:center;transition:transform .12s,box-shadow .12s}
-.btn:hover{transform:translate(-3px,-3px);box-shadow:9px 9px 0 #3a0f52}
-.btn + .btn{margin-left:16px}
-.btn-petit{font-size:13px;padding:8px 14px;box-shadow:4px 4px 0 #3a0f52;border-width:3px}
-section{padding:36px 0}
-.panel{background:#fff6e5;border:5px solid #3a0f52;border-radius:26px;box-shadow:10px 10px 0 #b07bd8;padding:26px;margin:0 0 26px}
-.panel.jaune{box-shadow:10px 10px 0 #ffd166}
-.titre{font-size:clamp(24px,4vw,38px);margin:0 0 8px;color:#3a0f52;text-shadow:3px 3px 0 #ffd166}
-.sous-titre{font-size:14px;margin:0 0 20px;color:#6b5580}
-hr.bonbon{border:0;height:8px;background:repeating-linear-gradient(90deg,#ff5d8f 0 16px,#ffd166 16px 32px,#41e0a3 32px 48px,#8ad7f2 48px 64px);border-radius:8px;margin:24px 0}
-.carac{width:100%;border-collapse:collapse;background:#fff;border:4px solid #3a0f52;border-radius:16px;overflow:hidden}
-.carac th,.carac td{border-bottom:2px dotted #c99;padding:9px 12px;text-align:left;font-size:14px;vertical-align:top}
-.carac th{background:#efe7f7;width:40%;font-family:Verdana,sans-serif;font-weight:bold;color:#3a0f52}
-footer.site{background:#3a0f52;color:#ffe8f0;border-top:7px solid #ffd166;padding:34px 16px 20px;margin-top:40px}
-footer.site .colonnes{display:grid;gap:24px;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));max-width:1100px;margin:0 auto}
-footer.site h4{color:#ffd166;font-size:18px;margin:0 0 8px}
-footer.site a{color:#8ad7f2}
-footer.site .absurde{max-width:1100px;margin:22px auto 0;font-size:12px;font-style:italic;color:#d8b6ea;border-top:2px dotted #8a35a8;padding-top:12px}
-/* bandeau page — moderne & élégant */
-.bandeau-page{position:relative;overflow:hidden;background:linear-gradient(140deg,#5c1580 0%,#4b1063 46%,#2e0843 100%);border:5px solid #3a0f52;border-radius:26px;padding:48px 28px 42px;margin:30px 0;box-shadow:10px 10px 0 #ffd166;text-align:center}
-.bandeau-page:before{content:"";position:absolute;inset:12px;border:1px solid rgba(255,209,102,.35);border-radius:17px;pointer-events:none}
-.bandeau-page:after{content:"";position:absolute;inset:0;background:radial-gradient(420px 210px at 86% -14%,rgba(255,209,102,.22),transparent 65%),radial-gradient(440px 260px at 5% 114%,rgba(255,93,143,.2),transparent 65%),radial-gradient(340px 170px at 50% -12%,rgba(138,215,242,.13),transparent 65%);pointer-events:none}
-.bandeau-page h1{position:relative;z-index:1;font-family:"Cooper Black",Rockwell,Georgia,serif;font-weight:400;font-size:clamp(32px,6vw,58px);margin:0;letter-spacing:.5px;background:linear-gradient(180deg,#fff3cf,#ffd166 52%,#e8a63d);-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent;filter:drop-shadow(0 3px 0 rgba(31,5,49,.55))}
-.bandeau-page h1:after{content:"";display:block;width:min(190px,58%);height:4px;margin:16px auto 12px;border-radius:999px;background:linear-gradient(90deg,transparent,#ff5d8f 22%,#ffd166 50%,#41e0a3 78%,transparent)}
-.bandeau-page p{position:relative;z-index:1;color:#f2e4fb;margin:0 auto;max-width:62ch;letter-spacing:.25px}
-.fil{font-size:12px;text-transform:uppercase;letter-spacing:1px;margin:40px 0 0;color:#6b5580}
-.fil a{color:#3a0f52}
-.visuel{position:relative}.visuel .badge{position:absolute;top:4px;left:4px;z-index:1;font-size:10px;padding:2px 8px}</style>
 </head>
 <body>
 

@@ -1,118 +1,3 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Produits - Catalogue complet Wonka Chocolate Factory</title>
-<meta name="description" content="Le catalogue des chocolats et confiseries Wonka : Wonka Bar, Gobstopper éternel, Scrumdiddlyumptious Bar, Œuf doré et autres raretés. Prix, rareté et disponibilité.">
-<meta name="author" content="Service communication Wonka">
-<link rel="canonical" href="https://www.wonka-chocolate-factory.example/produits.html">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Les produits Wonka - 8 produits, 1 seule usine">
-<meta property="og:description" content="Barres classiques, confiseries expérimentales et objets de collection. Certaines références sont interdites aux Oompa Loompas.">
-<meta property="og:url" content="https://www.wonka-chocolate-factory.example/produits.html">
-<meta property="og:site_name" content="Wonka Chocolate Factory">
-<meta property="og:locale" content="fr_FR">
-<style>
-/* ============================================================
-   FEUILLE DE STYLE WONKA — copiée depuis index.html
-   (version "produits", quelques ajustements d'espacements)
-   ============================================================ */
-*{box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{margin:0;color:#3b1a2b;font-family:Verdana,"Trebuchet MS",Tahoma,sans-serif;font-size:15px;line-height:1.65;
- background-color:#ffe8f0;
- background-image:radial-gradient(#ffd166 2px,transparent 3px),radial-gradient(#8ad7f2 2px,transparent 3px),repeating-linear-gradient(135deg,#ffd9ec 0 24px,#ffeaf6 24px 48px);
- background-size:60px 60px,60px 60px,auto;background-position:0 0,30px 30px,0 0;background-attachment:fixed}
-h1,h2,h3,h4,.logo,.btn,.badge,.prix{font-family:"Cooper Black","Bookman Old Style",Rockwell,Georgia,serif;font-weight:400;letter-spacing:.3px}
-a{color:#a3256b}
-.wrap{max-width:1100px;margin:0 auto;padding:0 16px}
-.topbar{overflow:hidden;background:#d7255c;color:#fff6e5;font-size:12px;letter-spacing:2px;text-transform:uppercase}
-.topbar .bande{display:inline-block;white-space:nowrap;padding:7px 0;animation:defile 26s linear infinite}
-@keyframes defile{0%{transform:translateX(100vw)}100%{transform:translateX(-100%)}}
-header.site{background:linear-gradient(180deg,#4a1163,#31093f);border-bottom:3px solid #ffd166;padding:0;position:relative}
-header.site:before{content:"";display:block;height:6px;background:repeating-linear-gradient(90deg,#ff5d8f 0 26px,#ffd166 26px 52px,#41e0a3 52px 78px,#8ad7f2 78px 104px)}
-.logo{margin:0}
-.logo img{position:relative;z-index:5;display:block;width:auto;height:80px;margin-bottom:-36px}@media(max-width:1020px){.logo img{height:70px;margin-bottom:-30px}}@media(max-width:920px){.logo img{height:58px;margin-bottom:-24px}}header.site .wrap{max-width:1100px;display:flex;align-items:center;flex-wrap:wrap;gap:14px;min-height:66px}.menu-toggle{position:absolute;width:1px;height:1px;opacity:0}.burger{display:none;margin-left:auto;color:#ffd166;font-size:24px;line-height:1;cursor:pointer;padding:10px 2px;user-select:none}
-nav.main{display:flex;align-items:center;gap:4px;margin-left:auto}@media(max-width:920px){.burger{display:inline-flex}nav.main{display:none;flex-direction:column;align-items:stretch;gap:2px;width:100%;margin:0;padding:28px 0 14px}nav.main a{padding:12px 16px;border-radius:12px}.menu-toggle:checked~nav.main{display:flex}}
-nav.main a{color:#efe1fb;text-decoration:none;font-weight:bold;font-size:clamp(9.5px,.92vw,11.5px);text-transform:uppercase;letter-spacing:.4px;padding:.65em .95em;border-radius:999px;white-space:nowrap;transition:background .15s,color .15s}
-nav.main a:hover{background:rgba(255,209,102,.16);color:#ffd166}nav.main a[aria-current=page]{background:#1e0530;color:#fff6e5;box-shadow:inset 0 0 0 2px #8a35a8}.logo a{display:block;line-height:0}
-.btn{display:inline-block;text-decoration:none;border:4px solid #3a0f52;border-radius:14px;padding:12px 22px;font-size:16px;cursor:pointer;box-shadow:6px 6px 0 #3a0f52;transition:transform .12s,box-shadow .12s;background:#ffd166;color:#3a0f52;text-align:center}
-.btn:hover{transform:translate(-3px,-3px);box-shadow:9px 9px 0 #3a0f52}
-.btn + .btn{margin-left:16px}
-.btn-ticket{background:linear-gradient(#ffe066,#ffb703);font-size:19px;animation:brille 2.4s ease-in-out infinite}
-.btn-rose{background:#ff5d8f;color:#fff6e5}
-.btn-vert{background:#41e0a3}
-.btn-bleu{background:#8ad7f2}
-.btn-petit{font-size:13px;padding:8px 14px;box-shadow:4px 4px 0 #3a0f52;border-width:3px}
-@keyframes brille{0%,100%{filter:brightness(1)}50%{filter:brightness(1.18) saturate(1.25)}}
-section{padding:40px 0}
-.panel{background:#fff6e5;border:5px solid #3a0f52;border-radius:26px;box-shadow:10px 10px 0 #ff5d8f;padding:26px;margin:0 0 26px}
-.panel.vert{box-shadow:10px 10px 0 #41e0a3}
-.panel.jaune{box-shadow:10px 10px 0 #ffd166}
-.titre{font-size:clamp(26px,4.6vw,44px);margin:0 0 8px;color:#3a0f52;text-shadow:3px 3px 0 #ffd166}
-.sous-titre{font-size:15px;margin:0 0 22px;color:#7a3b5c}
-hr.bonbon{border:0;height:8px;background:repeating-linear-gradient(90deg,#ff5d8f 0 16px,#ffd166 16px 32px,#41e0a3 32px 48px,#8ad7f2 48px 64px);border-radius:8px;margin:26px 0}
-.grille{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:24px}
-.carte{background:#fff;border:4px solid #3a0f52;border-radius:20px;padding:18px;box-shadow:7px 7px 0 #3a0f52;transition:transform .18s,box-shadow .18s;position:relative}
-.carte:hover{transform:translate(-4px,-4px) rotate(-1deg);box-shadow:12px 12px 0 #ff5d8f}
-.carte h3{margin:8px 0 4px;font-size:21px}
-.carte .visuel{height:120px;border-radius:14px;border:3px dashed #3a0f52;display:flex;align-items:center;justify-content:center;font-size:54px;margin-bottom:10px}
-.prix{font-size:25px;color:#c1121f;margin:6px 0}
-.badge{display:inline-block;background:#ff5d8f;color:#fff6e5;border:3px solid #3a0f52;border-radius:999px;padding:3px 11px;font-size:11px;text-transform:uppercase;letter-spacing:1px;box-shadow:3px 3px 0 #3a0f52}
-.badge.vert{background:#41e0a3;color:#123a2c}
-.badge.jaune{background:#ffd166;color:#5a3a00}
-.badge.bleu{background:#8ad7f2;color:#0b3d4d}
-.badge.clignote{animation:clignote 1s steps(2) infinite}
-@keyframes clignote{50%{opacity:.25}}
-.filtres{text-align:center;margin:0 0 26px}
-.filtres button{margin:4px}
-.filtres .btn + .btn{margin-left:0}
-.faq details{background:#fff;border:3px solid #3a0f52;border-radius:14px;margin-bottom:10px}
-.faq summary{cursor:pointer;font-weight:bold;padding:12px 14px;background:#ffe8f0;border-radius:10px}
-.faq details[open] summary{background:#ffd166}
-.faq p{padding:6px 14px 14px;margin:0}
-footer.site{background:#3a0f52;color:#ffe8f0;border-top:7px solid #ffd166;padding:34px 16px 20px;margin-top:40px}
-footer.site .colonnes{display:grid;gap:24px;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));max-width:1100px;margin:0 auto}
-footer.site h4{color:#ffd166;font-size:18px;margin:0 0 8px}
-footer.site a{color:#8ad7f2}
-footer.site .absurde{max-width:1100px;margin:22px auto 0;font-size:12px;font-style:italic;color:#d8b6ea;border-top:2px dotted #8a35a8;padding-top:12px}
-/* bandeau page — moderne & élégant */
-.bandeau-page{position:relative;overflow:hidden;background:linear-gradient(140deg,#5c1580 0%,#4b1063 46%,#2e0843 100%);border:5px solid #3a0f52;border-radius:26px;padding:48px 28px 42px;margin:30px 0;box-shadow:10px 10px 0 #ffd166;text-align:center}
-.bandeau-page:before{content:"";position:absolute;inset:12px;border:1px solid rgba(255,209,102,.35);border-radius:17px;pointer-events:none}
-.bandeau-page:after{content:"";position:absolute;inset:0;background:radial-gradient(420px 210px at 86% -14%,rgba(255,209,102,.22),transparent 65%),radial-gradient(440px 260px at 5% 114%,rgba(255,93,143,.2),transparent 65%),radial-gradient(340px 170px at 50% -12%,rgba(138,215,242,.13),transparent 65%);pointer-events:none}
-.bandeau-page h1{position:relative;z-index:1;font-family:"Cooper Black",Rockwell,Georgia,serif;font-weight:400;font-size:clamp(32px,6vw,58px);margin:0;letter-spacing:.5px;background:linear-gradient(180deg,#fff3cf,#ffd166 52%,#e8a63d);-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent;filter:drop-shadow(0 3px 0 rgba(31,5,49,.55))}
-.bandeau-page h1:after{content:"";display:block;width:min(190px,58%);height:4px;margin:16px auto 12px;border-radius:999px;background:linear-gradient(90deg,transparent,#ff5d8f 22%,#ffd166 50%,#41e0a3 78%,transparent)}
-.bandeau-page p{position:relative;z-index:1;color:#f2e4fb;margin:0 auto;max-width:62ch;letter-spacing:.25px}
-.fil{font-size:12px;text-transform:uppercase;letter-spacing:1px;margin:40px 0 0;color:#7a3b5c}
-.fil a{color:#3a0f52}
-/* style dupliqué inutilement : la même chose que .prix, gardée "au cas où" */
-.prix-produit{font-size:25px;color:#c1121f}
-.visuel{position:relative}.visuel .badge{position:absolute;top:4px;left:4px;z-index:1;font-size:10px;padding:2px 8px}
-/* hero visite — fond rivière de chocolat (copié depuis index.html) */
-.hero-riviere{position:relative;border:5px solid #3a0f52;border-radius:26px;overflow:hidden;box-shadow:10px 10px 0 #8ad7f2;padding:70px 26px;margin:0 0 48px;text-align:center;background-image:url("bateau-rose.png");background-size:cover;background-position:center 62%}
-.hero-riviere:before{content:"";position:absolute;top:0;left:0;width:100%;height:100%;background:linear-gradient(180deg,rgba(23,9,3,.88),rgba(64,29,12,.58))}
-.hero-riviere h2{position:relative;color:#fff6e5;text-shadow:3px 3px 0 #3a0f52;margin:0 0 12px;font-size:clamp(28px,5vw,48px)}
-.hero-riviere p{position:relative;color:#fff6e5;font-weight:bold;text-shadow:1px 1px 0 #3a0f52;max-width:56ch;margin:0 auto 20px}
-/* laboratoire — fusionné depuis confiseries-experimentales.html */
-.avertissement{background:#fff3cd;border:4px dashed #c1121f;border-radius:16px;padding:14px 16px;margin:16px 0;font-weight:bold}
-/* bloc livraison — repris du bloc « Visiter l'usine en 4 étapes » d'index.html */
-.livraison{margin:0 0 44px}
-.livraison-bloc{display:grid;gap:26px;grid-template-columns:3fr 2fr;align-items:start}
-@media(max-width:880px){.livraison-bloc{grid-template-columns:1fr}}
-.etapes{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
-.etape{background:#fff;border:4px solid #3a0f52;border-radius:18px;padding:18px;box-shadow:7px 7px 0 #41e0a3}
-.etape h3{margin:0 0 6px;font-size:19px}
-.etape p{font-size:13px;margin:0}
-.etape-entete{display:flex;align-items:center;gap:10px}
-.etape .n{flex:none;display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;border-radius:50%;background:#ff5d8f;color:#fff6e5;border:3px solid #3a0f52;font-family:"Cooper Black",Georgia,serif;font-size:20px}
-.etape-entete .ico{flex:none;width:36px;height:36px;display:flex;align-items:center;justify-content:center;background:#ffe8f0;border:3px solid #3a0f52;border-radius:12px;color:#3a0f52}
-.etape-entete .ico svg{width:22px;height:22px}
-.livraison-photos{position:relative}
-.livraison-photos .deco-boutique{position:absolute;left:8px;bottom:-48px;width:min(300px,72%);height:auto;transform:rotate(-5deg);border-radius:12px;box-shadow:8px 8px 0 #ff5d8f}
-.livraison-photo{margin:0;background:#fff6e5;border:5px solid #3a0f52;border-radius:18px;padding:14px;box-shadow:12px 12px 0 #8ad7f2;transform:rotate(2deg);max-width:320px;justify-self:end;position:relative;z-index:1}
-.livraison-photo img{display:block;width:100%;height:auto;border-radius:10px}
-.livraison-photo figcaption{font-size:12px;text-transform:uppercase;letter-spacing:1px;color:#7a3b5c;text-align:center;margin-top:10px}</style>
 <script type="application/ld+json" >
 {
   "@context": "https://schema.org",
@@ -141,7 +26,6 @@ footer.site .absurde{max-width:1100px;margin:22px auto 0;font-size:12px;font-sty
   ]
 }
 </script>
-</head>
 <body>
 
 <div class="topbar"><span class="bande">★ Catalogue 2026 : 8 références ★ 2 en rupture expérimentale ★ Les prix sont en euros et en confiance ★</span></div>
@@ -443,4 +327,4 @@ function filtrer(cat) {
 }
 </script>
 </body>
-</html>
+
