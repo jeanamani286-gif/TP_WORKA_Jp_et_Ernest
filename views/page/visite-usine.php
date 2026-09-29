@@ -1,48 +1,8 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Visiter l'usine Wonka - Billetterie, horaires et règlement</title>
-<meta name="description" content="Comment visiter la Wonka Chocolate Factory : Golden Ticket obligatoire, groupes de 5 enfants maximum, règlement intérieur, parcours de visite et tarifs.">
-<meta name="author" content="Bureau des visites Wonka">
-<link rel="canonical" href="https://www.wonka-chocolate-factory.example/visite-usine.html">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Visiter la chocolaterie Wonka - 5 visiteurs par an, pas un de plus">
-<meta property="og:description" content="Contrat de 47 pages, rivière de chocolat et ascenseur capricieux. Toutes les informations pratiques sont ici.">
-<meta property="og:url" content="https://www.wonka-chocolate-factory.example/visite-usine.html">
-<meta property="og:site_name" content="Wonka Chocolate Factory">
-<meta property="og:locale" content="fr_FR">
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "TouristAttraction",
-  "name": "Wonka Chocolate Factory — Visite de l'usine",
-  "description": "Visite guidée de la chocolaterie Wonka, accessible uniquement sur présentation d'un Golden Ticket.",
-  "address": { "@type": "PostalAddress", "streetAddress": "14 boulevard du Cacao Fou", "addressLocality": "Chocolatville-sur-Rivière", "postalCode": "1971", "addressCountry": "FR" },
-  "openingHours": "Mo-Fr 09:00-18:00",
-  "isAccessibleForFree": false,
-  "maximumAttendeeCapacity": 5
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    { "@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://www.wonka-chocolate-factory.example/index.html" },
-    { "@type": "ListItem", "position": 2, "name": "Visiter l'usine", "item": "https://www.wonka-chocolate-factory.example/visite-usine.html" }
-  ]
-}
-</script>
-</head>
-<body>
-
 <div class="topbar"><span class="bande">★ Prochaine visite guidée : quand cinq tickets auront été retrouvés ★ Les retardataires ne sont pas attendus ★</span></div>
 
 <header class="site">
   <div class="wrap">
-    <p class="logo"><a href="index.html" aria-label="Wonka Chocolate Factory - Accueil"><img src="logo-wonka.png" alt="Wonka Chocolate Factory" width="2000" height="1125"></a></p>
+    <p class="logo"><a href="?page=accueil" aria-label="Wonka Chocolate Factory - Accueil"><img src="assets/images/logo-wonka.png" alt="Wonka Chocolate Factory" width="2000" height="1125"></a></p>
     <input type="checkbox" id="menu-toggle" class="menu-toggle">
     <label for="menu-toggle" class="burger" aria-label="Ouvrir le menu"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
   <path d="M4 6l16 0" />
@@ -50,12 +10,12 @@
   <path d="M4 18l16 0" />
 </svg></label>
     <nav class="main">
-      <a href="index.html">Accueil</a>
-      <a href="produits.html">Produits</a>
-      <a href="visite-usine.html">Visiter l'usine</a>
-      <a href="histoire.html">Notre histoire</a>
-      <a href="faq.html">FAQ</a>
-      <a href="contact.html">Contact</a>
+      <a href="?page=accueil">Accueil</a>
+      <a href="?page=produits">Produits</a>
+      <a href="?page=visite-usine">Visiter l'usine</a>
+      <a href="?page=histoire">Notre histoire</a>
+      <a href="?page=faq">FAQ</a>
+      <a href="?page=contact">Contact</a>
     </nav>
   </div>
 </header>
@@ -74,29 +34,29 @@
 </script>
 
 <div class="wrap">
-  <p class="fil"><a href="index.html">Accueil</a> › Visiter l'usine</p>
+  <p class="fil"><a href="?page=accueil">Accueil</a> › Visiter l'usine</p>
 
   <div class="bandeau-page">
     <span class="badge jaune">Ouverture exceptionnelle — 5 visiteurs par an</span>
     <h1>Visiter l'usine</h1>
     <p>Cinq visiteurs par an. Un par ticket. Pas d'exception, sauf pour les chiens très polis.</p>
     <p>
-      <a href="golden-ticket.html" class="btn btn-ticket">Trouver un Golden Ticket</a>
+      <a href="?page=golden-ticket" class="btn btn-ticket">Trouver un Golden Ticket</a>
       <a href="#reglement" class="btn btn-rose">Voir le règlement</a>
     </p>
   </div>
 
   <div class="vitrine">
     <figure class="vitrine-photo">
-      <img src="exterieur-usine.png" alt="Façade extérieure de la Wonka Chocolate Factory" width="565" height="353">
+      <img src="assets/images/exterieur-usine.png" alt="Façade extérieure de la Wonka Chocolate Factory" width="565" height="353">
       <figcaption>La façade officielle</figcaption>
     </figure>
     <figure class="vitrine-photo">
-      <img src="interieur-usine.jpg" alt="Intérieur de la chocolaterie Wonka" width="3000" height="2000">
+      <img src="assets/images/interieur-usine.jpg" alt="Intérieur de la chocolaterie Wonka" width="3000" height="2000">
       <figcaption>L'atelier principal</figcaption>
     </figure>
     <figure class="vitrine-photo">
-      <img src="bateau-rose.png" alt="Le bateau rose qui navigue sur la rivière de chocolat" width="1448" height="1086">
+      <img src="assets/images/bateau-rose.png" alt="Le bateau rose qui navigue sur la rivière de chocolat" width="1448" height="1086">
       <figcaption>Le bateau rose</figcaption>
     </figure>
   </div>
@@ -130,7 +90,7 @@
   <div class="hero-riviere reveal">
     <h2>La rivière de chocolat vous attend</h2>
     <p>Un fleuve entièrement comestible, mélangé à la cascade, que vous aurez l'interdiction formelle de goûter. C'est tout l'intérêt de venir le voir en vrai.</p>
-    <a href="golden-ticket.html" class="btn btn-ticket">Réserver ma visite</a>
+    <a href="?page=golden-ticket" class="btn btn-ticket">Réserver ma visite</a>
   </div>
 
   <div class="reveal">
@@ -173,7 +133,7 @@
   <path d="M9.7 17l4.6 0" />
 </svg></span></div>
           <h3 style="margin:0 0 6px;font-size:19px">Salle des inventions</h3>
-          <p style="font-size:13px;margin:0">Voir la page <a href="confiseries-experimentales.html">Confiseries expérimentales</a>.</p>
+          <p style="font-size:13px;margin:0">Voir la page <a href="?page=produits">Confiseries expérimentales</a>.</p>
         </div>
         <div class="etape">
           <div class="etape-entete"><span class="n">5</span><span class="ico"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
@@ -190,7 +150,7 @@
   <path d="M8 18v-12a2 2 0 1 0 -4 0v12" />
 </svg></span></div>
           <h3 style="margin:0 0 6px;font-size:19px">Salle du papier peint</h3>
-          <p style="font-size:13px;margin:0">Dégustation libre et encadrée de la <a href="lickable-wallpaper.html">Lickable Wallpaper</a>.</p>
+          <p style="font-size:13px;margin:0">Dégustation libre et encadrée de la <a href="?page=lickable-wallpaper">Lickable Wallpaper</a>.</p>
         </div>
         <div class="etape">
           <div class="etape-entete"><span class="n">7</span><span class="ico"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
@@ -209,11 +169,11 @@
       </div>
       <div class="visite-photos">
         <figure class="visite-photo">
-          <img src="salle-noix-ecureuils.jpeg" alt="Les écureuilles trieuses de la salle des noix" width="738" height="415">
+          <img src="assets/images/salle-noix-ecureuils.jpeg" alt="Les écureuilles trieuses de la salle des noix" width="738" height="415">
           <figcaption>La salle des noix</figcaption>
         </figure>
         <figure class="visite-photo">
-          <img src="labo-chocolat.png" alt="Le laboratoire de chocolat de l'usine Wonka" width="1122" height="1402">
+          <img src="assets/images/labo-chocolat.png" alt="Le laboratoire de chocolat de l'usine Wonka" width="1122" height="1402">
           <figcaption>Le laboratoire chocolat</figcaption>
         </figure>
       </div>
@@ -235,10 +195,10 @@
   <path d="M5 8h8.5a2.5 2.5 0 1 0 -2.34 -3.24" />
   <path d="M3 12h15.5a2.5 2.5 0 1 1 -2.34 3.24" />
   <path d="M4 16h5.5a2.5 2.5 0 1 1 -2.34 3.24" />
-</svg></span><p>Ne pas boire la <a href="fizzy-lifting-drink.html">Fizzy Lifting Drink</a> debout, ni près d'un ventilateur.</p></li>
+</svg></span><p>Ne pas boire la <a href="?page=fizzy-lifting-drink">Fizzy Lifting Drink</a> debout, ni près d'un ventilateur.</p></li>
       <li><span class="n">3</span><span class="ico"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
   <path d="M19 14.083c0 4.154 -2.966 6.74 -7 6.917c-4.2 0 -7 -2.763 -7 -6.917c0 -5.538 3.5 -11.09 7 -11.083c3.5 .007 7 5.545 7 11.083z" />
-</svg></span><p>Ne pas ramasser de <a href="golden-egg.html">Golden Egg</a> sans demander.</p></li>
+</svg></span><p>Ne pas ramasser de <a href="?page=golden-egg">Golden Egg</a> sans demander.</p></li>
       <li><span class="n">4</span><span class="ico"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
   <path d="M3 17a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
   <path d="M13 17a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
@@ -330,7 +290,7 @@
     </details>
     <details>
       <summary>Où trouver un Golden Ticket ?</summary>
-      <p>Dans une <a href="wonka-bar.html">Wonka Bar</a> ou dans un <a href="golden-egg.html">Golden Egg</a>. Cinq tickets par an, jamais six.</p>
+      <p>Dans une <a href="?page=wonka-bar">Wonka Bar</a> ou dans un <a href="?page=golden-egg">Golden Egg</a>. Cinq tickets par an, jamais six.</p>
     </details>
   </div>
 </div>
@@ -347,15 +307,15 @@
     </div>
     <div>
       <h4>Besoin d'aide ?</h4>
-      <p><a href="faq.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
+      <p><a href="?page=faq"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
   <path d="M9 6l6 6l-6 6" />
-</svg> Foire aux questions</a><br><a href="contact.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
+</svg> Foire aux questions</a><br><a href="?page=contact"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
   <path d="M9 6l6 6l-6 6" />
-</svg> Nous contacter</a><br><a href="mentions-legales.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
+</svg> Nous contacter</a><br><a href="?page=mentions-legales"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
   <path d="M9 6l6 6l-6 6" />
-</svg> Mentions légales</a><br><a href="recrutement.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
+</svg> Mentions légales</a><br><a href="?page=recrutement"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
   <path d="M9 6l6 6l-6 6" />
-</svg> Travailler à l'usine</a><br><a href="golden-ticket.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
+</svg> Travailler à l'usine</a><br><a href="?page=golden-ticket"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
   <path d="M9 6l6 6l-6 6" />
 </svg> Trouver un Golden Ticket</a></p>
     </div>
@@ -380,5 +340,3 @@
   for (var i = 0; i < els.length; i++) { io.observe(els[i]); }
 })();
 </script>
-</body>
-</html>

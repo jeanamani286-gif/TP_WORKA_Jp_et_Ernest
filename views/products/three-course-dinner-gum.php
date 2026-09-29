@@ -1,67 +1,8 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Three-Course Dinner Gum - un repas complet en une gomme | Wonka</title>
-<meta name="description" content="La Three-Course Dinner Gum : soupe à la tomate, bœuf rôti et tarte aux myrtilles en une seule gomme à mâcher. Avertissements, composition et rareté.">
-<meta name="author" content="Laboratoire Wonka, 4e étage">
-<link rel="canonical" href="https://www.wonka-chocolate-factory.example/three-course-dinner-gum.html">
-<meta property="og:type" content="product">
-<meta property="og:title" content="Three-Course Dinner Gum - entrée, plat, dessert">
-<meta property="og:description" content="Interdit aux Oompa Loompas. Le dessert reste le point faible du produit.">
-<meta property="og:url" content="https://www.wonka-chocolate-factory.example/three-course-dinner-gum.html">
-<meta property="og:site_name" content="Wonka Chocolate Factory">
-<meta property="og:locale" content="fr_FR">
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Product",
-  "name": "Three-Course Dinner Gum",
-  "description": "Gomme à mâcher reproduisant un repas complet : soupe à la tomate, bœuf rôti et tarte aux myrtilles.",
-  "sku": "TCG-2004-011",
-  "category": "Confiseries expérimentales",
-  "brand": { "@type": "Brand", "name": "Wonka Chocolate Factory" },
-  "offers": {
-    "@type": "Offer",
-    "url": "https://www.wonka-chocolate-factory.example/three-course-dinner-gum.html",
-    "priceCurrency": "EUR",
-    "price": "9.00",
-    "availability": "https://schema.org/LimitedAvailability"
-  }
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    { "@type": "Question", "name": "Le dessert fonctionne-t-il enfin ?", "acceptedAnswer": { "@type": "Answer", "text": "Il fonctionne jusqu'à un certain point. Au-delà, le consommateur devient bleu. Un jus de citron est alors offert." } },
-    { "@type": "Question", "name": "Les produits expérimentaux sont-ils garantis ?", "acceptedAnswer": { "@type": "Answer", "text": "Non. Ils sont observés, documentés, parfois chantés, mais jamais garantis." } },
-    { "@type": "Question", "name": "Peut-on partager la gomme ?", "acceptedAnswer": { "@type": "Answer", "text": "Techniquement oui, mais la deuxième personne commencera au plat principal, ce qui est décevant." } }
-  ]
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    { "@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://www.wonka-chocolate-factory.example/index.html" },
-    { "@type": "ListItem", "position": 2, "name": "Produits", "item": "https://www.wonka-chocolate-factory.example/produits.html" },
-    { "@type": "ListItem", "position": 3, "name": "Three-Course Dinner Gum", "item": "https://www.wonka-chocolate-factory.example/three-course-dinner-gum.html" }
-  ]
-}
-</script>
-</head>
-<body>
-
 <div class="topbar"><span class="bande">★ Three-Course Dinner Gum ★ Entrée, plat, dessert ★ Interdit aux Oompa Loompas ★ Le jus de citron est offert ★</span></div>
 
 <header class="site">
   <div class="wrap">
-    <p class="logo"><a href="index.html" aria-label="Wonka Chocolate Factory - Accueil"><img src="logo-wonka.png" alt="Wonka Chocolate Factory" width="2000" height="1125"></a></p>
+    <p class="logo"><a href="?page=accueil" aria-label="Wonka Chocolate Factory - Accueil"><img src="assets/images/logo-wonka.png" alt="Wonka Chocolate Factory" width="2000" height="1125"></a></p>
     <input type="checkbox" id="menu-toggle" class="menu-toggle">
     <label for="menu-toggle" class="burger" aria-label="Ouvrir le menu"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
   <path d="M4 6l16 0" />
@@ -69,12 +10,12 @@
   <path d="M4 18l16 0" />
 </svg></label>
     <nav class="main">
-      <a href="index.html">Accueil</a>
-      <a href="produits.html">Produits</a>
-      <a href="visite-usine.html">Visiter l'usine</a>
-      <a href="histoire.html">Notre histoire</a>
-      <a href="faq.html">FAQ</a>
-      <a href="contact.html">Contact</a>
+      <a href="?page=accueil">Accueil</a>
+      <a href="?page=produits">Produits</a>
+      <a href="?page=visite-usine">Visiter l'usine</a>
+      <a href="?page=histoire">Notre histoire</a>
+      <a href="?page=faq">FAQ</a>
+      <a href="?page=contact">Contact</a>
     </nav>
   </div>
 </header>
@@ -93,7 +34,7 @@
 </script>
 
 <div class="wrap">
-  <p class="fil"><a href="index.html">Accueil</a> › <a href="produits.html">Produits</a> › Three-Course Dinner Gum</p>
+  <p class="fil"><a href="?page=accueil">Accueil</a> › <a href="?page=produits">Produits</a> › Three-Course Dinner Gum</p>
 
   <section class="fiche-intro">
     <div class="fiche">
@@ -116,7 +57,7 @@
         <p>Produit vendu au laboratoire, au 4<sup>e</sup> étage, les jeudis uniquement, sur présentation d'une décharge signée.</p>
         <p>
           <button class="btn btn-ticket" onclick="acheterProduit('Three-Course Dinner Gum')">Acheter — 9,00 €</button>
-          <a class="btn btn-bleu" href="confiseries-experimentales.html">Voir le laboratoire</a>
+          <a class="btn btn-bleu" href="?page=produits">Voir le laboratoire</a>
         </p>
       </div>
     </div>
@@ -187,11 +128,11 @@
       </details>
       <details>
         <summary>Les produits expérimentaux sont-ils garantis ?</summary>
-        <p>Non. Ils sont observés, documentés, parfois chantés, mais jamais garantis. Voir <a href="confiseries-experimentales.html">Confiseries expérimentales</a>.</p>
+        <p>Non. Ils sont observés, documentés, parfois chantés, mais jamais garantis. Voir <a href="?page=produits">Confiseries expérimentales</a>.</p>
       </details>
       <details>
         <summary>Que faire si un bonbon change de couleur ?</summary>
-        <p>Pour un <a href="everlasting-gobstopper.html">Everlasting Gobstopper</a>, c'est normal. Pour cette gomme, c'est vous qui changez de couleur, et ce n'est pas normal : contactez le <a href="contact.html">service client</a>.</p>
+        <p>Pour un <a href="?page=everlasting-gobstopper">Everlasting Gobstopper</a>, c'est normal. Pour cette gomme, c'est vous qui changez de couleur, et ce n'est pas normal : contactez le <a href="?page=contact">service client</a>.</p>
       </details>
     </div>
 
@@ -207,7 +148,7 @@
         <h3>Fizzy Lifting Drink</h3>
         <p style="font-size:13px;margin:0 0 6px">Buvez, flottez, touchez le plafond.</p>
         <p class="prix" style="font-size:22px">6,50 €</p>
-        <a class="btn btn-petit" href="fizzy-lifting-drink.html">Voir la fiche</a>
+        <a class="btn btn-petit" href="?page=fizzy-lifting-drink">Voir la fiche</a>
       </div>
       <div class="carte">
         <div class="visuel" style="background:#fde3b7"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
@@ -218,7 +159,7 @@
         <h3>Lickable Wallpaper</h3>
         <p style="font-size:13px;margin:0 0 6px">Des murs à lécher, motifs fruits.</p>
         <p class="prix" style="font-size:22px">24,00 €</p>
-        <a class="btn btn-petit" href="lickable-wallpaper.html">Voir la fiche</a>
+        <a class="btn btn-petit" href="?page=lickable-wallpaper">Voir la fiche</a>
       </div>
       <div class="carte">
         <div class="visuel" style="background:#f4b8d6"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
@@ -232,7 +173,7 @@
         <h3>Everlasting Gobstopper</h3>
         <p style="font-size:13px;margin:0 0 6px">Ça ne fond jamais. Jamais.</p>
         <p class="prix" style="font-size:22px">12,00 €</p>
-        <a class="btn btn-petit" href="everlasting-gobstopper.html">Voir la fiche</a>
+        <a class="btn btn-petit" href="?page=everlasting-gobstopper">Voir la fiche</a>
       </div>
     </div>
   </section>

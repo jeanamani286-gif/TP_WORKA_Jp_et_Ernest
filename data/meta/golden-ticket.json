@@ -1,0 +1,14 @@
+{
+    "title": "Golden Ticket - 5 tickets par an | Wonka Chocolate Factory",
+    "description": "Tout savoir sur le Golden Ticket : où le trouver, ce qu'il donne droit et le règlement officiel des cinq tickets annuels.",
+    "author": "Bureau des tickets Wonka",
+    "canonical": "https://www.wonka-chocolate-factory.example/golden-ticket.html",
+    "og": {
+        "og:type": "website",
+        "og:title": "Golden Ticket - cinq par an, pas un de plus",
+        "og:description": "Dans une barre, dans un œuf doré. Choisissez votre méthode.",
+        "og:url": "https://www.wonka-chocolate-factory.example/golden-ticket.html",
+        "og:site_name": "Wonka Chocolate Factory",
+        "og:locale": "fr_FR"
+    }
+}

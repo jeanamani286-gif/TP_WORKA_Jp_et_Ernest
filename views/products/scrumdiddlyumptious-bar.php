@@ -1,67 +1,8 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Scrumdiddlyumptious Bar - la barre signature | Wonka Chocolate Factory</title>
-<meta name="description" content="La Scrumdiddlyumptious Bar : chocolat noir 64 %, noix de pécan caramélisées, éclats de caramel dur. Fiche produit complète, prix et rareté.">
-<meta name="author" content="Atelier barres Wonka">
-<link rel="canonical" href="https://www.wonka-chocolate-factory.example/scrumdiddlyumptious-bar.html">
-<meta property="og:type" content="product">
-<meta property="og:title" content="Scrumdiddlyumptious Bar - 5,50 € de pur vocabulaire inventé">
-<meta property="og:description" content="Le mot n'existe pas dans le dictionnaire. Le chocolat, si. 64 % de cacao, noix de pécan.">
-<meta property="og:url" content="https://www.wonka-chocolate-factory.example/scrumdiddlyumptious-bar.html">
-<meta property="og:site_name" content="Wonka Chocolate Factory">
-<meta property="og:locale" content="fr_FR">
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Product",
-  "name": "Scrumdiddlyumptious Bar",
-  "description": "Barre de chocolat noir 64 % aux noix de pécan caramélisées et éclats de caramel dur.",
-  "sku": "SB-1998-004",
-  "category": "Barres signature",
-  "brand": { "@type": "Brand", "name": "Wonka Chocolate Factory" },
-  "offers": {
-    "@type": "Offer",
-    "url": "https://www.wonka-chocolate-factory.example/scrumdiddlyumptious-bar.html",
-    "priceCurrency": "EUR",
-    "price": "5.50",
-    "availability": "https://schema.org/InStock"
-  }
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    { "@type": "Question", "name": "Que veut dire scrumdiddlyumptious ?", "acceptedAnswer": { "@type": "Answer", "text": "Rien. Le mot a été inventé par M. Wonka en 1998 et n'a jamais été défini, malgré trois tentatives de la direction marketing." } },
-    { "@type": "Question", "name": "Les produits contiennent-ils des noix ?", "acceptedAnswer": { "@type": "Answer", "text": "Oui pour cette barre : elle contient des noix de pécan caramélisées." } },
-    { "@type": "Question", "name": "Peut-on commander depuis l'étranger ?", "acceptedAnswer": { "@type": "Answer", "text": "Oui. Contrairement à la Fizzy Lifting Drink, la Scrumdiddlyumptious Bar voyage très bien." } }
-  ]
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    { "@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://www.wonka-chocolate-factory.example/index.html" },
-    { "@type": "ListItem", "position": 2, "name": "Produits", "item": "https://www.wonka-chocolate-factory.example/produits.html" },
-    { "@type": "ListItem", "position": 3, "name": "Scrumdiddlyumptious Bar", "item": "https://www.wonka-chocolate-factory.example/scrumdiddlyumptious-bar.html" }
-  ]
-}
-</script>
-</head>
-<body>
-
 <div class="topbar"><span class="bande">★ Scrumdiddlyumptious Bar ★ Chocolat noir 64 % ★ Noix de pécan caramélisées ★ Le mot n'existe pas, le chocolat si ★</span></div>
 
 <header class="site">
   <div class="wrap">
-    <p class="logo"><a href="index.html" aria-label="Wonka Chocolate Factory - Accueil"><img src="logo-wonka.png" alt="Wonka Chocolate Factory" width="2000" height="1125"></a></p>
+    <p class="logo"><a href="?page=accueil" aria-label="Wonka Chocolate Factory - Accueil"><img src="assets/images/logo-wonka.png" alt="Wonka Chocolate Factory" width="2000" height="1125"></a></p>
     <input type="checkbox" id="menu-toggle" class="menu-toggle">
     <label for="menu-toggle" class="burger" aria-label="Ouvrir le menu"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
   <path d="M4 6l16 0" />
@@ -69,12 +10,12 @@
   <path d="M4 18l16 0" />
 </svg></label>
     <nav class="main">
-      <a href="index.html">Accueil</a>
-      <a href="produits.html">Produits</a>
-      <a href="visite-usine.html">Visiter l'usine</a>
-      <a href="histoire.html">Notre histoire</a>
-      <a href="faq.html">FAQ</a>
-      <a href="contact.html">Contact</a>
+      <a href="?page=accueil">Accueil</a>
+      <a href="?page=produits">Produits</a>
+      <a href="?page=visite-usine">Visiter l'usine</a>
+      <a href="?page=histoire">Notre histoire</a>
+      <a href="?page=faq">FAQ</a>
+      <a href="?page=contact">Contact</a>
     </nav>
   </div>
 </header>
@@ -93,7 +34,7 @@
 </script>
 
 <div class="wrap">
-  <p class="fil"><a href="index.html">Accueil</a> › <a href="produits.html">Produits</a> › Scrumdiddlyumptious Bar</p>
+  <p class="fil"><a href="?page=accueil">Accueil</a> › <a href="?page=produits">Produits</a> › Scrumdiddlyumptious Bar</p>
 
   <section class="fiche-intro">
     <div class="fiche">
@@ -114,7 +55,7 @@
         <p>Inventée en 1998 lors d'une nuit de torréfaction trop longue. Le nom est sorti tout seul. Personne n'a osé le changer depuis.</p>
         <p>
           <button class="btn btn-ticket" onclick="acheterProduit('Scrumdiddlyumptious Bar')">Acheter — 5,50 €</button>
-          <a class="btn btn-bleu" href="produits.html">Retour au catalogue</a>
+          <a class="btn btn-bleu" href="?page=produits">Retour au catalogue</a>
         </p>
       </div>
     </div>
@@ -161,11 +102,11 @@
       </details>
       <details>
         <summary>Les produits contiennent-ils des noix ?</summary>
-        <p>Oui pour cette barre : noix de pécan caramélisées. La <a href="wonka-bar.html">Wonka Bar</a> peut en contenir des traces. Voir la <a href="faq.html">FAQ générale</a>.</p>
+        <p>Oui pour cette barre : noix de pécan caramélisées. La <a href="?page=wonka-bar">Wonka Bar</a> peut en contenir des traces. Voir la <a href="?page=faq">FAQ générale</a>.</p>
       </details>
       <details>
         <summary>Peut-on commander depuis l'étranger ?</summary>
-        <p>Oui. Contrairement à la <a href="fizzy-lifting-drink.html">Fizzy Lifting Drink</a>, cette barre voyage très bien.</p>
+        <p>Oui. Contrairement à la <a href="?page=fizzy-lifting-drink">Fizzy Lifting Drink</a>, cette barre voyage très bien.</p>
       </details>
     </div>
 
@@ -181,7 +122,7 @@
         <h3>Wonka Bar</h3>
         <p style="font-size:13px;margin:0 0 6px">La barre qui a rendu cinq enfants célèbres.</p>
         <p class="prix" style="font-size:22px">3,50 €</p>
-        <a class="btn btn-petit" href="wonka-bar.html">Voir la fiche</a>
+        <a class="btn btn-petit" href="?page=wonka-bar">Voir la fiche</a>
       </div>
       <div class="carte">
         <div class="visuel" style="background:#ffe9a8"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
@@ -190,7 +131,7 @@
         <h3>Golden Egg</h3>
         <p style="font-size:13px;margin:0 0 6px">Pondu par une poule très motivée.</p>
         <p class="prix" style="font-size:22px">89,00 €</p>
-        <a class="btn btn-petit" href="golden-egg.html">Voir la fiche</a>
+        <a class="btn btn-petit" href="?page=golden-egg">Voir la fiche</a>
       </div>
       <div class="carte">
         <div class="visuel" style="background:#eceff3"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
@@ -202,7 +143,7 @@
         <h3>Invisible Chocolate</h3>
         <p style="font-size:13px;margin:0 0 6px">Vous ne le verrez pas. Vous le sentirez.</p>
         <p class="prix" style="font-size:22px">15,00 €</p>
-        <a class="btn btn-petit" href="invisible-chocolate.html">Voir la fiche</a>
+        <a class="btn btn-petit" href="?page=invisible-chocolate">Voir la fiche</a>
       </div>
     </div>
   </section>
@@ -220,15 +161,15 @@
     </div>
     <div>
       <h4>Besoin d'aide ?</h4>
-      <p><a href="faq.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
+      <p><a href="?page=faq"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
   <path d="M9 6l6 6l-6 6" />
-</svg> Foire aux questions</a><br><a href="contact.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
+</svg> Foire aux questions</a><br><a href="?page=contact"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
   <path d="M9 6l6 6l-6 6" />
-</svg> Nous contacter</a><br><a href="mentions-legales.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
+</svg> Nous contacter</a><br><a href="?page=mentions-legales"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
   <path d="M9 6l6 6l-6 6" />
-</svg> Mentions légales</a><br><a href="recrutement.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
+</svg> Mentions légales</a><br><a href="?page=recrutement"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
   <path d="M9 6l6 6l-6 6" />
-</svg> Travailler à l'usine</a><br><a href="golden-ticket.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
+</svg> Travailler à l'usine</a><br><a href="?page=golden-ticket"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
   <path d="M9 6l6 6l-6 6" />
 </svg> Trouver un Golden Ticket</a></p>
     </div>
@@ -243,5 +184,3 @@ function acheterProduit(nom) {
 }
 
 </script>
-</body>
-</html>

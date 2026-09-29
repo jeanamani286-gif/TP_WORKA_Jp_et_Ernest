@@ -1,0 +1,75 @@
+[
+    {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Lickable Wallpaper",
+        "description": "Papier peint comestible aux motifs fruits. Rouleau de 5 mètres, six parfums disponibles.",
+        "sku": "LW-1992-005",
+        "category": "Décoration comestible",
+        "brand": {
+            "@type": "Brand",
+            "name": "Wonka Chocolate Factory"
+        },
+        "offers": {
+            "@type": "Offer",
+            "url": "https://www.wonka-chocolate-factory.example/lickable-wallpaper.html",
+            "priceCurrency": "EUR",
+            "price": "24.00",
+            "availability": "https://schema.org/InStock"
+        }
+    },
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "Le papier peint a-t-il vraiment un goût ?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Oui : framboise, citron, poire, pomme, orange et un parfum non identifié que nous appelons mercredi."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Peut-on le poser sur un mur porteur ?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Non. L'humidité de la colle comestible ramollit le plâtre et, à terme, la structure."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Combien de temps dure un rouleau ?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "5 mètres linéaires, soit environ onze jours pour un enfant déterminé."
+                }
+            }
+        ]
+    },
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Accueil",
+                "item": "https://www.wonka-chocolate-factory.example/index.html"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Produits",
+                "item": "https://www.wonka-chocolate-factory.example/produits.html"
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Lickable Wallpaper",
+                "item": "https://www.wonka-chocolate-factory.example/lickable-wallpaper.html"
+            }
+        ]
+    }
+]

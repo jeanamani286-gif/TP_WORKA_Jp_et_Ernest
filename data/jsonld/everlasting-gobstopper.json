@@ -1,0 +1,75 @@
+[
+    {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Everlasting Gobstopper",
+        "description": "Bonbon dur qui ne fond jamais et change de couleur chaque jour de la semaine.",
+        "sku": "EG-1984-007",
+        "category": "Confiseries expérimentales",
+        "brand": {
+            "@type": "Brand",
+            "name": "Wonka Chocolate Factory"
+        },
+        "offers": {
+            "@type": "Offer",
+            "url": "https://www.wonka-chocolate-factory.example/everlasting-gobstopper.html",
+            "priceCurrency": "EUR",
+            "price": "12.00",
+            "availability": "https://schema.org/OutOfStock"
+        }
+    },
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "Les Gobstoppers sont-ils vraiment éternels ?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Ils ne fondent pas et ne diminuent jamais de taille. Nous n'avons pas encore testé au-delà de quarante ans."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Que faire si un bonbon change de couleur ?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Rien de grave : c'est sa fonction. Posez-le et attendez le lendemain."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Peut-on le croquer ?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Physiquement oui. C'est une très mauvaise idée, pour vos dents comme pour le concept."
+                }
+            }
+        ]
+    },
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Accueil",
+                "item": "https://www.wonka-chocolate-factory.example/index.html"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Produits",
+                "item": "https://www.wonka-chocolate-factory.example/produits.html"
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Everlasting Gobstopper",
+                "item": "https://www.wonka-chocolate-factory.example/everlasting-gobstopper.html"
+            }
+        ]
+    }
+]

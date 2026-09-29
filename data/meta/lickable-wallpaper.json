@@ -1,0 +1,14 @@
+{
+    "title": "Lickable Wallpaper - papier peint à lécher | Wonka Chocolate Factory",
+    "description": "Le Lickable Wallpaper : papier peint comestible aux motifs fruits, rouleau de 5 mètres. Parfums, pose, avertissements et disponibilité saisonnière.",
+    "author": "Atelier décoration comestible Wonka",
+    "canonical": "https://www.wonka-chocolate-factory.example/lickable-wallpaper.html",
+    "og": {
+        "og:type": "product",
+        "og:title": "Lickable Wallpaper - 24 € le rouleau de 5 mètres",
+        "og:description": "Des murs à lécher pour chambres d'enfants. Les murs goûtent la framboise. Parfois le papier.",
+        "og:url": "https://www.wonka-chocolate-factory.example/lickable-wallpaper.html",
+        "og:site_name": "Wonka Chocolate Factory",
+        "og:locale": "fr_FR"
+    }
+}

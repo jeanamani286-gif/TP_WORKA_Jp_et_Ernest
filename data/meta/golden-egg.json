@@ -1,0 +1,14 @@
+{
+    "title": "Golden Egg - l'œuf doré de collection | Wonka Chocolate Factory",
+    "description": "Le Golden Egg : œuf doré de collection contenant un bonbon rare et un rêve. Prix, rareté très élevée, édition limitée et conditions d'obtention.",
+    "author": "Bureau des objets rares Wonka",
+    "canonical": "https://www.wonka-chocolate-factory.example/golden-egg.html",
+    "og": {
+        "og:type": "product",
+        "og:title": "Golden Egg - 89 €, pondu par une poule très motivée",
+        "og:description": "Objet de collection numéroté. Contient un bonbon rare, un rêve et parfois un ticket.",
+        "og:url": "https://www.wonka-chocolate-factory.example/golden-egg.html",
+        "og:site_name": "Wonka Chocolate Factory",
+        "og:locale": "fr_FR"
+    }
+}

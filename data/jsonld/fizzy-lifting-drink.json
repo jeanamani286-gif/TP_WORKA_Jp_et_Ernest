@@ -1,0 +1,75 @@
+[
+    {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Fizzy Lifting Drink",
+        "description": "Boisson gazeuse au cacao pétillant qui provoque une flottaison immédiate du consommateur.",
+        "sku": "FLD-1976-003",
+        "category": "Boissons expérimentales",
+        "brand": {
+            "@type": "Brand",
+            "name": "Wonka Chocolate Factory"
+        },
+        "offers": {
+            "@type": "Offer",
+            "url": "https://www.wonka-chocolate-factory.example/fizzy-lifting-drink.html",
+            "priceCurrency": "EUR",
+            "price": "6.50",
+            "availability": "https://schema.org/LimitedAvailability"
+        }
+    },
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "Les boissons Fizzy Lifting sont-elles dangereuses ?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Elles font flotter. Le danger vient des plafonds, des ventilateurs et des fenêtres ouvertes, pas de la boisson."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Comment redescendre ?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "En rotant. C'est mécanique, immédiat, et socialement assumé dans l'enceinte de l'usine."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Peut-on commander depuis l'étranger ?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Non. Le produit est interdit dans les avions, les trains et la plupart des immeubles."
+                }
+            }
+        ]
+    },
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Accueil",
+                "item": "https://www.wonka-chocolate-factory.example/index.html"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Produits",
+                "item": "https://www.wonka-chocolate-factory.example/produits.html"
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Fizzy Lifting Drink",
+                "item": "https://www.wonka-chocolate-factory.example/fizzy-lifting-drink.html"
+            }
+        ]
+    }
+]

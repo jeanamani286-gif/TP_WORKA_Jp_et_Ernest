@@ -1,67 +1,8 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Invisible Chocolate - le chocolat que l'on ne voit pas | Wonka</title>
-<meta name="description" content="L'Invisible Chocolate : un chocolat parfaitement invisible, vendu dans une boîte vide. Composition, rareté mythique et avertissements de visibilité.">
-<meta name="author" content="Laboratoire Wonka, 4e étage, salle sans fenêtre">
-<link rel="canonical" href="https://www.wonka-chocolate-factory.example/invisible-chocolate.html">
-<meta property="og:type" content="product">
-<meta property="og:title" content="Invisible Chocolate - 15 € pour quelque chose que vous ne verrez pas">
-<meta property="og:description" content="Interdit aux Oompa Loompas. Peut rendre partiellement transparent en cas de consommation excessive.">
-<meta property="og:url" content="https://www.wonka-chocolate-factory.example/invisible-chocolate.html">
-<meta property="og:site_name" content="Wonka Chocolate Factory">
-<meta property="og:locale" content="fr_FR">
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Product",
-  "name": "Invisible Chocolate",
-  "description": "Chocolat parfaitement invisible, conditionné dans une boîte vide scellée. Saveur intense, visibilité nulle.",
-  "sku": "IC-2011-009",
-  "category": "Confiseries expérimentales",
-  "brand": { "@type": "Brand", "name": "Wonka Chocolate Factory" },
-  "offers": {
-    "@type": "Offer",
-    "url": "https://www.wonka-chocolate-factory.example/invisible-chocolate.html",
-    "priceCurrency": "EUR",
-    "price": "15.00",
-    "availability": "https://schema.org/Discontinued"
-  }
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    { "@type": "Question", "name": "La boîte est-elle vraiment vide ?", "acceptedAnswer": { "@type": "Answer", "text": "Elle contient 40 grammes de chocolat invisible. Nous ne pouvons pas vous le prouver, et vous ne pouvez pas le vérifier." } },
-    { "@type": "Question", "name": "Comment savoir quand il n'y en a plus ?", "acceptedAnswer": { "@type": "Answer", "text": "Le goût disparaît. C'est le seul indicateur fiable, et il arrive trop tard." } },
-    { "@type": "Question", "name": "Les produits expérimentaux sont-ils garantis ?", "acceptedAnswer": { "@type": "Answer", "text": "Non. Pour ce produit précis, la garantie est elle aussi invisible." } }
-  ]
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    { "@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://www.wonka-chocolate-factory.example/index.html" },
-    { "@type": "ListItem", "position": 2, "name": "Produits", "item": "https://www.wonka-chocolate-factory.example/produits.html" },
-    { "@type": "ListItem", "position": 3, "name": "Invisible Chocolate", "item": "https://www.wonka-chocolate-factory.example/invisible-chocolate.html" }
-  ]
-}
-</script>
-</head>
-<body>
-
 <div class="topbar"><span class="bande">★ Invisible Chocolate ★ Vous ne le verrez pas ★ Vous le sentirez ★ Interdit aux Oompa Loompas ★</span></div>
 
 <header class="site">
   <div class="wrap">
-    <p class="logo"><a href="index.html" aria-label="Wonka Chocolate Factory - Accueil"><img src="logo-wonka.png" alt="Wonka Chocolate Factory" width="2000" height="1125"></a></p>
+    <p class="logo"><a href="?page=accueil" aria-label="Wonka Chocolate Factory - Accueil"><img src="assets/images/logo-wonka.png" alt="Wonka Chocolate Factory" width="2000" height="1125"></a></p>
     <input type="checkbox" id="menu-toggle" class="menu-toggle">
     <label for="menu-toggle" class="burger" aria-label="Ouvrir le menu"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
   <path d="M4 6l16 0" />
@@ -69,12 +10,12 @@
   <path d="M4 18l16 0" />
 </svg></label>
     <nav class="main">
-      <a href="index.html">Accueil</a>
-      <a href="produits.html">Produits</a>
-      <a href="visite-usine.html">Visiter l'usine</a>
-      <a href="histoire.html">Notre histoire</a>
-      <a href="faq.html">FAQ</a>
-      <a href="contact.html">Contact</a>
+      <a href="?page=accueil">Accueil</a>
+      <a href="?page=produits">Produits</a>
+      <a href="?page=visite-usine">Visiter l'usine</a>
+      <a href="?page=histoire">Notre histoire</a>
+      <a href="?page=faq">FAQ</a>
+      <a href="?page=contact">Contact</a>
     </nav>
   </div>
 </header>
@@ -93,7 +34,7 @@
 </script>
 
 <div class="wrap">
-  <p class="fil"><a href="index.html">Accueil</a> › <a href="produits.html">Produits</a> › Invisible Chocolate</p>
+  <p class="fil"><a href="?page=accueil">Accueil</a> › <a href="?page=produits">Produits</a> › Invisible Chocolate</p>
 
   <section class="fiche-intro">
     <div class="fiche">
@@ -114,7 +55,7 @@
         <p>Livré dans une boîte vide, scellée, pesant exactement 40 grammes de plus qu'elle ne devrait. Aucun remboursement possible : il faudrait d'abord retrouver le produit.</p>
         <p>
           <button class="btn btn-ticket" onclick="acheterProduit('Invisible Chocolate')">Acheter — 15,00 €</button>
-          <a class="btn btn-vert" href="produits.html">Retour au catalogue</a>
+          <a class="btn btn-vert" href="?page=produits">Retour au catalogue</a>
         </p>
       </div>
     </div>
@@ -168,11 +109,11 @@
       </details>
       <details>
         <summary>Les produits expérimentaux sont-ils garantis ?</summary>
-        <p>Non. Pour ce produit précis, la garantie est elle aussi invisible. Voir <a href="confiseries-experimentales.html">Confiseries expérimentales</a>.</p>
+        <p>Non. Pour ce produit précis, la garantie est elle aussi invisible. Voir <a href="?page=produits">Confiseries expérimentales</a>.</p>
       </details>
       <details>
         <summary>Que faire si un bonbon change de couleur ?</summary>
-        <p>Un <a href="everlasting-gobstopper.html">Everlasting Gobstopper</a> change de couleur normalement. Celui-ci n'en a aucune : c'est plus grave, mais c'est voulu.</p>
+        <p>Un <a href="?page=everlasting-gobstopper">Everlasting Gobstopper</a> change de couleur normalement. Celui-ci n'en a aucune : c'est plus grave, mais c'est voulu.</p>
       </details>
     </div>
 
@@ -188,7 +129,7 @@
         <h3>Scrumdiddlyumptious Bar</h3>
         <p style="font-size:13px;margin:0 0 6px">Le mot n'existe pas. Le chocolat si.</p>
         <p class="prix" style="font-size:22px">5,50 €</p>
-        <a class="btn btn-petit" href="scrumdiddlyumptious-bar.html">Voir la fiche</a>
+        <a class="btn btn-petit" href="?page=scrumdiddlyumptious-bar">Voir la fiche</a>
       </div>
       <div class="carte">
         <div class="visuel" style="background:#f4b8d6"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
@@ -202,7 +143,7 @@
         <h3>Everlasting Gobstopper</h3>
         <p style="font-size:13px;margin:0 0 6px">Ça ne fond jamais. Jamais.</p>
         <p class="prix" style="font-size:22px">12,00 €</p>
-        <a class="btn btn-petit" href="everlasting-gobstopper.html">Voir la fiche</a>
+        <a class="btn btn-petit" href="?page=everlasting-gobstopper">Voir la fiche</a>
       </div>
       <div class="carte">
         <div class="visuel" style="background:#c7ecf7"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
@@ -213,7 +154,7 @@
         <h3>Fizzy Lifting Drink</h3>
         <p style="font-size:13px;margin:0 0 6px">Buvez, flottez, touchez le plafond.</p>
         <p class="prix" style="font-size:22px">6,50 €</p>
-        <a class="btn btn-petit" href="fizzy-lifting-drink.html">Voir la fiche</a>
+        <a class="btn btn-petit" href="?page=fizzy-lifting-drink">Voir la fiche</a>
       </div>
     </div>
   </section>
@@ -231,15 +172,15 @@
     </div>
     <div>
       <h4>Besoin d'aide ?</h4>
-      <p><a href="faq.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
+      <p><a href="?page=faq"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
   <path d="M9 6l6 6l-6 6" />
-</svg> Foire aux questions</a><br><a href="contact.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
+</svg> Foire aux questions</a><br><a href="?page=contact"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
   <path d="M9 6l6 6l-6 6" />
-</svg> Nous contacter</a><br><a href="mentions-legales.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
+</svg> Nous contacter</a><br><a href="?page=mentions-legales"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
   <path d="M9 6l6 6l-6 6" />
-</svg> Mentions légales</a><br><a href="recrutement.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
+</svg> Mentions légales</a><br><a href="?page=recrutement"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
   <path d="M9 6l6 6l-6 6" />
-</svg> Travailler à l'usine</a><br><a href="golden-ticket.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
+</svg> Travailler à l'usine</a><br><a href="?page=golden-ticket"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
   <path d="M9 6l6 6l-6 6" />
 </svg> Trouver un Golden Ticket</a></p>
     </div>
@@ -254,5 +195,3 @@ function acheterProduit(nom) {
 }
 
 </script>
-</body>
-</html>

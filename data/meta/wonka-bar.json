@@ -1,0 +1,14 @@
+{
+    "title": "Wonka Bar - la barre au Golden Ticket | Wonka Chocolate Factory",
+    "description": "La Wonka Bar : chocolat au lait, caramel mou et peut-être un Golden Ticket. Prix, ingrédients, rareté et disponibilité de la barre la plus célèbre de Chocolatville.",
+    "author": "Atelier barres Wonka",
+    "canonical": "https://www.wonka-chocolate-factory.example/wonka-bar.html",
+    "og": {
+        "og:type": "product",
+        "og:title": "Wonka Bar - 3,50 € et une chance sur des millions",
+        "og:description": "La barre qui a rendu cinq enfants célèbres. Chocolat au lait, caramel mou, surprise possible.",
+        "og:url": "https://www.wonka-chocolate-factory.example/wonka-bar.html",
+        "og:site_name": "Wonka Chocolate Factory",
+        "og:locale": "fr_FR"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "title": "Everlasting Gobstopper - le bonbon qui ne fond jamais | Wonka",
+    "description": "L'Everlasting Gobstopper : un bonbon qui ne fond jamais et change de couleur chaque jour. Composition, rareté, disponibilité et avertissements.",
+    "author": "Atelier bonbons durs Wonka",
+    "canonical": "https://www.wonka-chocolate-factory.example/everlasting-gobstopper.html",
+    "og": {
+        "og:type": "product",
+        "og:title": "Everlasting Gobstopper - 12,00 € et il est encore là demain",
+        "og:description": "Conçu pour les enfants à très petit budget. Ne fond jamais. Change de couleur le mercredi.",
+        "og:url": "https://www.wonka-chocolate-factory.example/everlasting-gobstopper.html",
+        "og:site_name": "Wonka Chocolate Factory",
+        "og:locale": "fr_FR"
+    }
+}

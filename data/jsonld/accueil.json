@@ -1,0 +1,46 @@
+[
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Wonka Chocolate Factory",
+        "alternateName": "Chocolaterie Wonka",
+        "url": "https://www.wonka-chocolate-factory.example/",
+        "logo": "https://www.wonka-chocolate-factory.example/logo-wonka.png",
+        "slogan": "Un peu de non-sens, beaucoup de chocolat.",
+        "foundingDate": "1971",
+        "founder": {
+            "@type": "Person",
+            "name": "Willy Wonka",
+            "jobTitle": "Fondateur et goûteur en chef"
+        },
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "14 boulevard du Cacao Fou",
+            "addressLocality": "Chocolatville-sur-Rivière",
+            "postalCode": "1971",
+            "addressCountry": "FR"
+        },
+        "openingHours": "Mo-Fr 09:00-18:00",
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+33-1-WONKA-71",
+            "contactType": "customer service",
+            "availableLanguage": [
+                "fr",
+                "Oompa-Loompa"
+            ]
+        }
+    },
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Accueil",
+                "item": "https://www.wonka-chocolate-factory.example/index.html"
+            }
+        ]
+    }
+]

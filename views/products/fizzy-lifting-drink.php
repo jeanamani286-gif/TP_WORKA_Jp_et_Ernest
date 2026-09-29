@@ -1,67 +1,8 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Fizzy Lifting Drink - la boisson qui fait flotter | Wonka</title>
-<meta name="description" content="La Fizzy Lifting Drink : une boisson gazeuse qui fait décoller. Prix, composition, avertissements très sérieux et disponibilité en édition limitée.">
-<meta name="author" content="Atelier boissons gazeuses Wonka">
-<link rel="canonical" href="https://www.wonka-chocolate-factory.example/fizzy-lifting-drink.html">
-<meta property="og:type" content="product">
-<meta property="og:title" content="Fizzy Lifting Drink - buvez, flottez, touchez le plafond">
-<meta property="og:description" content="Édition limitée. Rot obligatoire avant l'atterrissage. Ne pas consommer près d'un ventilateur.">
-<meta property="og:url" content="https://www.wonka-chocolate-factory.example/fizzy-lifting-drink.html">
-<meta property="og:site_name" content="Wonka Chocolate Factory">
-<meta property="og:locale" content="fr_FR">
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Product",
-  "name": "Fizzy Lifting Drink",
-  "description": "Boisson gazeuse au cacao pétillant qui provoque une flottaison immédiate du consommateur.",
-  "sku": "FLD-1976-003",
-  "category": "Boissons expérimentales",
-  "brand": { "@type": "Brand", "name": "Wonka Chocolate Factory" },
-  "offers": {
-    "@type": "Offer",
-    "url": "https://www.wonka-chocolate-factory.example/fizzy-lifting-drink.html",
-    "priceCurrency": "EUR",
-    "price": "6.50",
-    "availability": "https://schema.org/LimitedAvailability"
-  }
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    { "@type": "Question", "name": "Les boissons Fizzy Lifting sont-elles dangereuses ?", "acceptedAnswer": { "@type": "Answer", "text": "Elles font flotter. Le danger vient des plafonds, des ventilateurs et des fenêtres ouvertes, pas de la boisson." } },
-    { "@type": "Question", "name": "Comment redescendre ?", "acceptedAnswer": { "@type": "Answer", "text": "En rotant. C'est mécanique, immédiat, et socialement assumé dans l'enceinte de l'usine." } },
-    { "@type": "Question", "name": "Peut-on commander depuis l'étranger ?", "acceptedAnswer": { "@type": "Answer", "text": "Non. Le produit est interdit dans les avions, les trains et la plupart des immeubles." } }
-  ]
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    { "@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://www.wonka-chocolate-factory.example/index.html" },
-    { "@type": "ListItem", "position": 2, "name": "Produits", "item": "https://www.wonka-chocolate-factory.example/produits.html" },
-    { "@type": "ListItem", "position": 3, "name": "Fizzy Lifting Drink", "item": "https://www.wonka-chocolate-factory.example/fizzy-lifting-drink.html" }
-  ]
-}
-</script>
-</head>
-<body>
-
 <div class="topbar"><span class="bande">★ Fizzy Lifting Drink ★ Édition limitée ★ Rot obligatoire ★ Ne pas consommer près d'un ventilateur ou d'une fenêtre ouverte ★</span></div>
 
 <header class="site">
   <div class="wrap">
-    <p class="logo"><a href="index.html" aria-label="Wonka Chocolate Factory - Accueil"><img src="logo-wonka.png" alt="Wonka Chocolate Factory" width="2000" height="1125"></a></p>
+    <p class="logo"><a href="?page=accueil" aria-label="Wonka Chocolate Factory - Accueil"><img src="assets/images/logo-wonka.png" alt="Wonka Chocolate Factory" width="2000" height="1125"></a></p>
     <input type="checkbox" id="menu-toggle" class="menu-toggle">
     <label for="menu-toggle" class="burger" aria-label="Ouvrir le menu"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
   <path d="M4 6l16 0" />
@@ -69,12 +10,12 @@
   <path d="M4 18l16 0" />
 </svg></label>
     <nav class="main">
-      <a href="index.html">Accueil</a>
-      <a href="produits.html">Produits</a>
-      <a href="visite-usine.html">Visiter l'usine</a>
-      <a href="histoire.html">Notre histoire</a>
-      <a href="faq.html">FAQ</a>
-      <a href="contact.html">Contact</a>
+      <a href="?page=accueil">Accueil</a>
+      <a href="?page=produits">Produits</a>
+      <a href="?page=visite-usine">Visiter l'usine</a>
+      <a href="?page=histoire">Notre histoire</a>
+      <a href="?page=faq">FAQ</a>
+      <a href="?page=contact">Contact</a>
     </nav>
   </div>
 </header>
@@ -93,7 +34,7 @@
 </script>
 
 <div class="wrap">
-  <p class="fil"><a href="index.html">Accueil</a> › <a href="produits.html">Produits</a> › Fizzy Lifting Drink</p>
+  <p class="fil"><a href="?page=accueil">Accueil</a> › <a href="?page=produits">Produits</a> › Fizzy Lifting Drink</p>
 
   <section class="fiche-intro">
     <div class="fiche">
@@ -114,7 +55,7 @@
         <p>La descente s'obtient par un rot franc et sincère. Les visiteurs timides restent généralement bloqués entre 2,10 m et 2,40 m pendant une vingtaine de minutes.</p>
         <p>
           <button class="btn btn-ticket" onclick="acheterProduit('Fizzy Lifting Drink')">Acheter — 6,50 €</button>
-          <a class="btn btn-bleu" href="produits.html">Retour au catalogue</a>
+          <a class="btn btn-bleu" href="?page=produits">Retour au catalogue</a>
         </p>
       </div>
     </div>
@@ -150,7 +91,7 @@
   <path d="M12 9v4" />
   <path d="M10.363 3.591l-8.106 13.534a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636 -2.87l-8.106 -13.536a1.914 1.914 0 0 0 -3.274 0z" />
   <path d="M12 16h.01" />
-</svg> Avertissement : ne pas consommer debout près d'un ventilateur, d'une fenêtre ouverte ou d'un lustre. Ne pas consommer avant un examen, un entretien ou une photo de classe. En cas de flottaison prolongée (plus de 4 h), contactez le <a href="contact.html">service client</a>.</div>
+</svg> Avertissement : ne pas consommer debout près d'un ventilateur, d'une fenêtre ouverte ou d'un lustre. Ne pas consommer avant un examen, un entretien ou une photo de classe. En cas de flottaison prolongée (plus de 4 h), contactez le <a href="?page=contact">service client</a>.</div>
     </div>
 
     <div class="panel jaune faq">
@@ -165,7 +106,7 @@
       </details>
       <details>
         <summary>Peut-on commander depuis l'étranger ?</summary>
-        <p>Non. Le produit est interdit dans les avions, les trains et la plupart des immeubles. Voir la <a href="faq.html">FAQ générale</a>.</p>
+        <p>Non. Le produit est interdit dans les avions, les trains et la plupart des immeubles. Voir la <a href="?page=faq">FAQ générale</a>.</p>
       </details>
     </div>
 
@@ -183,7 +124,7 @@
         <h3>Three-Course Dinner Gum</h3>
         <p style="font-size:13px;margin:0 0 6px">Un repas complet en une gomme.</p>
         <p class="prix" style="font-size:22px">9,00 €</p>
-        <a class="btn btn-petit" href="three-course-dinner-gum.html">Voir la fiche</a>
+        <a class="btn btn-petit" href="?page=three-course-dinner-gum">Voir la fiche</a>
       </div>
       <div class="carte">
         <div class="visuel" style="background:#eceff3"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
@@ -195,7 +136,7 @@
         <h3>Invisible Chocolate</h3>
         <p style="font-size:13px;margin:0 0 6px">Vous ne le verrez pas. Vous le sentirez.</p>
         <p class="prix" style="font-size:22px">15,00 €</p>
-        <a class="btn btn-petit" href="invisible-chocolate.html">Voir la fiche</a>
+        <a class="btn btn-petit" href="?page=invisible-chocolate">Voir la fiche</a>
       </div>
     </div>
   </section>
@@ -213,15 +154,15 @@
     </div>
     <div>
       <h4>Besoin d'aide ?</h4>
-      <p><a href="faq.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
+      <p><a href="?page=faq"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
   <path d="M9 6l6 6l-6 6" />
-</svg> Foire aux questions</a><br><a href="contact.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
+</svg> Foire aux questions</a><br><a href="?page=contact"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
   <path d="M9 6l6 6l-6 6" />
-</svg> Nous contacter</a><br><a href="mentions-legales.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
+</svg> Nous contacter</a><br><a href="?page=mentions-legales"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
   <path d="M9 6l6 6l-6 6" />
-</svg> Mentions légales</a><br><a href="recrutement.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
+</svg> Mentions légales</a><br><a href="?page=recrutement"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
   <path d="M9 6l6 6l-6 6" />
-</svg> Travailler à l'usine</a><br><a href="golden-ticket.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
+</svg> Travailler à l'usine</a><br><a href="?page=golden-ticket"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
   <path d="M9 6l6 6l-6 6" />
 </svg> Trouver un Golden Ticket</a></p>
     </div>
@@ -236,5 +177,3 @@ function acheterProduit(nom) {
 }
 
 </script>
-</body>
-</html>

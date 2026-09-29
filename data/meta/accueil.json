@@ -1,0 +1,14 @@
+{
+    "title": "Wonka Chocolate Factory - Accueil officiel de la chocolaterie",
+    "description": "Bienvenue à la Wonka Chocolate Factory : chocolats, confiseries expérimentales, boissons qui font flotter et cinq Golden Tickets cachés chaque année.",
+    "author": "Service communication Wonka",
+    "canonical": "https://www.wonka-chocolate-factory.example/index.html",
+    "og": {
+        "og:type": "website",
+        "og:title": "Wonka Chocolate Factory - La chocolaterie la plus étrange du monde",
+        "og:description": "Chocolats, confiseries expérimentales et visites d'usine. Entrée uniquement sur Golden Ticket.",
+        "og:url": "https://www.wonka-chocolate-factory.example/index.html",
+        "og:site_name": "Wonka Chocolate Factory",
+        "og:locale": "fr_FR"
+    }
+}

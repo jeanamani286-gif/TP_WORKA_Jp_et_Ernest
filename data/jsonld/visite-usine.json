@@ -1,0 +1,36 @@
+[
+    {
+        "@context": "https://schema.org",
+        "@type": "TouristAttraction",
+        "name": "Wonka Chocolate Factory — Visite de l'usine",
+        "description": "Visite guidée de la chocolaterie Wonka, accessible uniquement sur présentation d'un Golden Ticket.",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "14 boulevard du Cacao Fou",
+            "addressLocality": "Chocolatville-sur-Rivière",
+            "postalCode": "1971",
+            "addressCountry": "FR"
+        },
+        "openingHours": "Mo-Fr 09:00-18:00",
+        "isAccessibleForFree": false,
+        "maximumAttendeeCapacity": 5
+    },
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Accueil",
+                "item": "https://www.wonka-chocolate-factory.example/index.html"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Visiter l'usine",
+                "item": "https://www.wonka-chocolate-factory.example/visite-usine.html"
+            }
+        ]
+    }
+]

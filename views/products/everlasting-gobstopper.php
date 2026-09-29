@@ -1,67 +1,8 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Everlasting Gobstopper - le bonbon qui ne fond jamais | Wonka</title>
-<meta name="description" content="L'Everlasting Gobstopper : un bonbon qui ne fond jamais et change de couleur chaque jour. Composition, rareté, disponibilité et avertissements.">
-<meta name="author" content="Atelier bonbons durs Wonka">
-<link rel="canonical" href="https://www.wonka-chocolate-factory.example/everlasting-gobstopper.html">
-<meta property="og:type" content="product">
-<meta property="og:title" content="Everlasting Gobstopper - 12,00 € et il est encore là demain">
-<meta property="og:description" content="Conçu pour les enfants à très petit budget. Ne fond jamais. Change de couleur le mercredi.">
-<meta property="og:url" content="https://www.wonka-chocolate-factory.example/everlasting-gobstopper.html">
-<meta property="og:site_name" content="Wonka Chocolate Factory">
-<meta property="og:locale" content="fr_FR">
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Product",
-  "name": "Everlasting Gobstopper",
-  "description": "Bonbon dur qui ne fond jamais et change de couleur chaque jour de la semaine.",
-  "sku": "EG-1984-007",
-  "category": "Confiseries expérimentales",
-  "brand": { "@type": "Brand", "name": "Wonka Chocolate Factory" },
-  "offers": {
-    "@type": "Offer",
-    "url": "https://www.wonka-chocolate-factory.example/everlasting-gobstopper.html",
-    "priceCurrency": "EUR",
-    "price": "12.00",
-    "availability": "https://schema.org/OutOfStock"
-  }
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    { "@type": "Question", "name": "Les Gobstoppers sont-ils vraiment éternels ?", "acceptedAnswer": { "@type": "Answer", "text": "Ils ne fondent pas et ne diminuent jamais de taille. Nous n'avons pas encore testé au-delà de quarante ans." } },
-    { "@type": "Question", "name": "Que faire si un bonbon change de couleur ?", "acceptedAnswer": { "@type": "Answer", "text": "Rien de grave : c'est sa fonction. Posez-le et attendez le lendemain." } },
-    { "@type": "Question", "name": "Peut-on le croquer ?", "acceptedAnswer": { "@type": "Answer", "text": "Physiquement oui. C'est une très mauvaise idée, pour vos dents comme pour le concept." } }
-  ]
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    { "@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://www.wonka-chocolate-factory.example/index.html" },
-    { "@type": "ListItem", "position": 2, "name": "Produits", "item": "https://www.wonka-chocolate-factory.example/produits.html" },
-    { "@type": "ListItem", "position": 3, "name": "Everlasting Gobstopper", "item": "https://www.wonka-chocolate-factory.example/everlasting-gobstopper.html" }
-  ]
-}
-</script>
-</head>
-<body>
-
 <div class="topbar"><span class="bande">★ Everlasting Gobstopper ★ Il ne fond jamais ★ Il change de couleur le mercredi ★ Série limitée à 300 pièces par mois ★</span></div>
 
 <header class="site">
   <div class="wrap">
-    <p class="logo"><a href="index.html" aria-label="Wonka Chocolate Factory - Accueil"><img src="logo-wonka.png" alt="Wonka Chocolate Factory" width="2000" height="1125"></a></p>
+    <p class="logo"><a href="?page=accueil" aria-label="Wonka Chocolate Factory - Accueil"><img src="assets/images/logo-wonka.png" alt="Wonka Chocolate Factory" width="2000" height="1125"></a></p>
     <input type="checkbox" id="menu-toggle" class="menu-toggle">
     <label for="menu-toggle" class="burger" aria-label="Ouvrir le menu"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
   <path d="M4 6l16 0" />
@@ -69,12 +10,12 @@
   <path d="M4 18l16 0" />
 </svg></label>
     <nav class="main">
-      <a href="index.html">Accueil</a>
-      <a href="produits.html">Produits</a>
-      <a href="visite-usine.html">Visiter l'usine</a>
-      <a href="histoire.html">Notre histoire</a>
-      <a href="faq.html">FAQ</a>
-      <a href="contact.html">Contact</a>
+      <a href="?page=accueil">Accueil</a>
+      <a href="?page=produits">Produits</a>
+      <a href="?page=visite-usine">Visiter l'usine</a>
+      <a href="?page=histoire">Notre histoire</a>
+      <a href="?page=faq">FAQ</a>
+      <a href="?page=contact">Contact</a>
     </nav>
   </div>
 </header>
@@ -93,7 +34,7 @@
 </script>
 
 <div class="wrap">
-  <p class="fil"><a href="index.html">Accueil</a> › <a href="produits.html">Produits</a> › Everlasting Gobstopper</p>
+  <p class="fil"><a href="?page=accueil">Accueil</a> › <a href="?page=produits">Produits</a> › Everlasting Gobstopper</p>
 
   <section class="fiche-intro">
     <div class="fiche">
@@ -124,7 +65,7 @@
         <p>La production actuelle est suspendue : le bain de sucre de la cuve n°4 a cessé de refroidir en 1998 et personne n'a réussi à l'éteindre.</p>
         <p>
           <button class="btn btn-rose" onclick="acheterProduit('Everlasting Gobstopper')">Être prévenu du retour</button>
-          <a class="btn btn-bleu" href="produits.html">Retour au catalogue</a>
+          <a class="btn btn-bleu" href="?page=produits">Retour au catalogue</a>
         </p>
       </div>
     </div>
@@ -171,11 +112,11 @@
       </details>
       <details>
         <summary>Que faire si un bonbon change de couleur ?</summary>
-        <p>Rien de grave. C'est sa fonction : une couleur par jour de la semaine. Posez-le et attendez le lendemain. Si c'est <em>vous</em> qui changez de couleur, contactez le <a href="contact.html">service client</a>.</p>
+        <p>Rien de grave. C'est sa fonction : une couleur par jour de la semaine. Posez-le et attendez le lendemain. Si c'est <em>vous</em> qui changez de couleur, contactez le <a href="?page=contact">service client</a>.</p>
       </details>
       <details>
         <summary>Peut-on le croquer ?</summary>
-        <p>Physiquement oui. C'est une très mauvaise idée, pour vos dents comme pour le concept. Voir aussi la <a href="faq.html">FAQ générale</a>.</p>
+        <p>Physiquement oui. C'est une très mauvaise idée, pour vos dents comme pour le concept. Voir aussi la <a href="?page=faq">FAQ générale</a>.</p>
       </details>
     </div>
 
@@ -191,7 +132,7 @@
         <h3>Wonka Bar</h3>
         <p style="font-size:13px;margin:0 0 6px">La barre qui a rendu cinq enfants célèbres.</p>
         <p class="prix" style="font-size:22px">3,50 €</p>
-        <a class="btn btn-petit" href="wonka-bar.html">Voir la fiche</a>
+        <a class="btn btn-petit" href="?page=wonka-bar">Voir la fiche</a>
       </div>
       <div class="carte">
         <div class="visuel" style="background:#d5f2c9"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
@@ -204,7 +145,7 @@
         <h3>Three-Course Dinner Gum</h3>
         <p style="font-size:13px;margin:0 0 6px">Un repas complet en une gomme.</p>
         <p class="prix" style="font-size:22px">9,00 €</p>
-        <a class="btn btn-petit" href="three-course-dinner-gum.html">Voir la fiche</a>
+        <a class="btn btn-petit" href="?page=three-course-dinner-gum">Voir la fiche</a>
       </div>
       <div class="carte">
         <div class="visuel" style="background:#eceff3"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
@@ -216,7 +157,7 @@
         <h3>Invisible Chocolate</h3>
         <p style="font-size:13px;margin:0 0 6px">Vous ne le verrez pas. Vous le sentirez.</p>
         <p class="prix" style="font-size:22px">15,00 €</p>
-        <a class="btn btn-petit" href="invisible-chocolate.html">Voir la fiche</a>
+        <a class="btn btn-petit" href="?page=invisible-chocolate">Voir la fiche</a>
       </div>
     </div>
   </section>
@@ -234,15 +175,15 @@
     </div>
     <div>
       <h4>Besoin d'aide ?</h4>
-      <p><a href="faq.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
+      <p><a href="?page=faq"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
   <path d="M9 6l6 6l-6 6" />
-</svg> Foire aux questions</a><br><a href="contact.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
+</svg> Foire aux questions</a><br><a href="?page=contact"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
   <path d="M9 6l6 6l-6 6" />
-</svg> Nous contacter</a><br><a href="mentions-legales.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
+</svg> Nous contacter</a><br><a href="?page=mentions-legales"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
   <path d="M9 6l6 6l-6 6" />
-</svg> Mentions légales</a><br><a href="recrutement.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
+</svg> Mentions légales</a><br><a href="?page=recrutement"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
   <path d="M9 6l6 6l-6 6" />
-</svg> Travailler à l'usine</a><br><a href="golden-ticket.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
+</svg> Travailler à l'usine</a><br><a href="?page=golden-ticket"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
   <path d="M9 6l6 6l-6 6" />
 </svg> Trouver un Golden Ticket</a></p>
     </div>
@@ -257,5 +198,3 @@ function acheterProduit(nom) {
 }
 
 </script>
-</body>
-</html>

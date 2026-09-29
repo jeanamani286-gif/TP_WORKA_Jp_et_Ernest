@@ -1,0 +1,106 @@
+[
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "Peut-on visiter l'usine sans Golden Ticket ?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Non. Absolument non. L'usine est verrouillée, et le gardien est très poli mais très ferme."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Les Gobstoppers sont-ils vraiment éternels ?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Ils ne fondent pas. Ils changent de couleur chaque jour de la semaine et ne diminuent jamais de taille. Nous n'avons pas encore testé au-delà de quarante ans."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Les boissons Fizzy Lifting sont-elles dangereuses ?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Elles font flotter. Le danger vient des plafonds, des ventilateurs et des fenêtres ouvertes, pas de la boisson elle-même."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Les produits contiennent-ils des noix ?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Certains oui. La Scrumdiddlyumptious Bar contient des noix de pécan caramélisées."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Peut-on commander depuis l'étranger ?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Oui, sauf pour la Fizzy Lifting Drink, interdite dans les avions, les trains et la plupart des immeubles."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Peut-on visiter l'usine avec des enfants ?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "C'est même l'objectif : cinq enfants, pas un de plus, chacun accompagné d'un adulte responsable de son calme."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Où trouver un Golden Ticket ?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Dans une Wonka Bar ou dans un Golden Egg. Cinq tickets par an, jamais six."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Les produits expérimentaux sont-ils garantis ?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Non. Ils sont observés, documentés, parfois chantés, mais jamais garantis."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Que faire si un bonbon change de couleur ?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Rien de grave. Posez-le et attendez le lendemain. Si vous changez de couleur aussi, appelez-nous."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Peut-on travailler à l'usine ?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Oui : goûteurs, polisseurs de bonbons, chanteurs de couloir. Le paiement en fèves de cacao n'est pas obligatoire pour les humains."
+                }
+            }
+        ]
+    },
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Accueil",
+                "item": "https://www.wonka-chocolate-factory.example/index.html"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "FAQ",
+                "item": "https://www.wonka-chocolate-factory.example/faq.html"
+            }
+        ]
+    }
+]

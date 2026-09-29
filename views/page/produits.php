@@ -16,23 +16,14 @@
   ]
 }
 </script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    { "@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://www.wonka-chocolate-factory.example/index.html" },
-    { "@type": "ListItem", "position": 2, "name": "Produits", "item": "https://www.wonka-chocolate-factory.example/produits.html" }
-  ]
-}
-</script>
-<body>
+
+
 
 <div class="topbar"><span class="bande">★ Catalogue 2026 : 8 références ★ 2 en rupture expérimentale ★ Les prix sont en euros et en confiance ★</span></div>
 
 <header class="site">
   <div class="wrap">
-    <p class="logo"><a href="index.html" aria-label="Wonka Chocolate Factory - Accueil"><img src="logo-wonka.png" alt="Wonka Chocolate Factory" width="2000" height="1125"></a></p>
+    <p class="logo"><a href="?page=accueil" aria-label="Wonka Chocolate Factory - Accueil"><img src="assets/images/logo-wonka.png" alt="Wonka Chocolate Factory" width="2000" height="1125"></a></p>
     <input type="checkbox" id="menu-toggle" class="menu-toggle">
     <label for="menu-toggle" class="burger" aria-label="Ouvrir le menu"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
   <path d="M4 6l16 0" />
@@ -40,12 +31,12 @@
   <path d="M4 18l16 0" />
 </svg></label>
     <nav class="main">
-      <a href="index.html">Accueil</a>
-      <a href="produits.html">Produits</a>
-      <a href="visite-usine.html">Visiter l'usine</a>
-      <a href="histoire.html">Notre histoire</a>
-      <a href="faq.html">FAQ</a>
-      <a href="contact.html">Contact</a>
+      <a href="?page=accueil">Accueil</a>
+      <a href="?page=produits">Produits</a>
+      <a href="?page=visite-usine">Visiter l'usine</a>
+      <a href="?page=histoire">Notre histoire</a>
+      <a href="?page=faq">FAQ</a>
+      <a href="?page=contact">Contact</a>
     </nav>
   </div>
 </header>
@@ -64,7 +55,7 @@
 </script>
 
 <div class="wrap">
-  <p class="fil"><a href="index.html">Accueil</a> › Produits</p>
+  <p class="fil"><a href="?page=accueil">Accueil</a> › Produits</p>
 
   <div class="bandeau-page">
     <h1>Produits</h1>
@@ -90,7 +81,7 @@
       <h3>Wonka Bar</h3>
       <p style="font-size:13px;margin:0 0 8px">La barre qui a rendu cinq enfants célèbres. Chocolat au lait, caramel mou et surprise possible.</p>
       <p class="prix">3,50 €</p>
-      <a class="btn btn-petit" href="wonka-bar.html">Voir la fiche</a>
+      <a class="btn btn-petit" href="?page=wonka-bar">Voir la fiche</a>
     </div>
 
     <div class="carte" data-cat="experimentale">
@@ -105,7 +96,7 @@
       <h3>Everlasting Gobstopper</h3>
       <p style="font-size:13px;margin:0 0 8px">Ça ne fond jamais. Jamais. Change de couleur le mercredi.</p>
       <p class="prix">12,00 €</p>
-      <a class="btn btn-petit" href="everlasting-gobstopper.html">Voir la fiche</a>
+      <a class="btn btn-petit" href="?page=everlasting-gobstopper">Voir la fiche</a>
     </div>
 
     <div class="carte" data-cat="boisson">
@@ -117,7 +108,7 @@
       <h3>Fizzy Lifting Drink</h3>
       <p style="font-size:13px;margin:0 0 8px">Buvez, flottez, touchez le plafond. Rot obligatoire avant d'atterrir.</p>
       <p class="prix">6,50 €</p>
-      <a class="btn btn-petit" href="fizzy-lifting-drink.html">Voir la fiche</a>
+      <a class="btn btn-petit" href="?page=fizzy-lifting-drink">Voir la fiche</a>
     </div>
 
     <div class="carte" data-cat="experimentale">
@@ -131,7 +122,7 @@
       <h3>Three-Course Dinner Gum</h3>
       <p style="font-size:13px;margin:0 0 8px">Tomate, bœuf, tarte aux myrtilles. En une seule gomme.</p>
       <p class="prix">9,00 €</p>
-      <a class="btn btn-petit" href="three-course-dinner-gum.html">Voir la fiche</a>
+      <a class="btn btn-petit" href="?page=three-course-dinner-gum">Voir la fiche</a>
     </div>
 
     <div class="carte" data-cat="collection">
@@ -143,7 +134,7 @@
       <h3>Lickable Wallpaper</h3>
       <p style="font-size:13px;margin:0 0 8px">Papier peint à lécher, motifs fruits. Rouleau de 5 mètres.</p>
       <p class="prix">24,00 €</p>
-      <a class="btn btn-petit" href="lickable-wallpaper.html">Voir la fiche</a>
+      <a class="btn btn-petit" href="?page=lickable-wallpaper">Voir la fiche</a>
     </div>
 
     <div class="carte" data-cat="collection">
@@ -153,7 +144,7 @@
       <h3>Golden Egg</h3>
       <p style="font-size:13px;margin:0 0 8px">Pondu par une poule très motivée. Contient un bonbon et un rêve.</p>
       <p class="prix">89,00 €</p>
-      <a class="btn btn-petit" href="golden-egg.html">Voir la fiche</a>
+      <a class="btn btn-petit" href="?page=golden-egg">Voir la fiche</a>
     </div>
 
     <div class="carte" data-cat="barre">
@@ -165,7 +156,7 @@
       <h3>Scrumdiddlyumptious Bar</h3>
       <p style="font-size:13px;margin:0 0 8px">Le mot n'existe pas dans le dictionnaire. Le chocolat, si.</p>
       <p class="prix">5,50 €</p>
-      <a class="btn btn-petit" href="scrumdiddlyumptious-bar.html">Voir la fiche</a>
+      <a class="btn btn-petit" href="?page=scrumdiddlyumptious-bar">Voir la fiche</a>
     </div>
 
     <div class="carte" data-cat="experimentale">
@@ -178,7 +169,7 @@
       <h3>Invisible Chocolate</h3>
       <p style="font-size:13px;margin:0 0 8px">Vous ne le verrez pas. Vous le sentirez. C'est tout le concept.</p>
       <p class="prix">15,00 €</p>
-      <a class="btn btn-petit" href="invisible-chocolate.html">Voir la fiche</a>
+      <a class="btn btn-petit" href="?page=invisible-chocolate">Voir la fiche</a>
     </div>
 
   </div>
@@ -186,8 +177,8 @@
   <div class="panel jaune" style="text-align:center;margin-top:56px">
     <h2 class="titre">Une référence vous manque ?</h2>
     <p>Écrivez-nous, nous l'inventerons peut-être d'ici jeudi.</p>
-    <a href="contact.html" class="btn btn-rose">Contacter l'atelier</a>
-    <a href="confiseries-experimentales.html" class="btn btn-bleu">Voir le laboratoire</a>
+    <a href="?page=contact" class="btn btn-rose">Contacter l'atelier</a>
+    <a href="?page=produits" class="btn btn-bleu">Voir le laboratoire</a>
   </div>
 
   <div class="avertissement"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
@@ -201,12 +192,12 @@
   <div class="hero-riviere">
     <h2>La rivière de chocolat vous attend</h2>
     <p>Ce que vous voyez ici n'est qu'une photo. En vrai, ça coule, ça sent le caramel et c'est interdit de s'en approcher à moins d'un mètre. La visite vaut le détour.</p>
-    <a href="visite-usine.html" class="btn btn-ticket">Réserver ma visite</a>
+    <a href="?page=visite-usine" class="btn btn-ticket">Réserver ma visite</a>
   </div>
 
   <div class="livraison">
     <h2 class="titre">La livraison en 4 étapes</h2>
-    <p class="sous-titre">Les cas particuliers (étranger, plafonds, pigeons) sont traités dans la <a href="faq.html">FAQ</a>.</p>
+    <p class="sous-titre">Les cas particuliers (étranger, plafonds, pigeons) sont traités dans la <a href="?page=faq">FAQ</a>.</p>
     <div class="livraison-bloc">
       <div class="etapes">
         <div class="etape">
@@ -250,9 +241,9 @@
         </div>
       </div>
       <div class="livraison-photos">
-        <img class="deco-boutique" src="boutique-tablette.jpg" alt="" aria-hidden="true" width="1200" height="900">
+        <img class="deco-boutique" src="assets/images/boutique-tablette.jpg" alt="" aria-hidden="true" width="1200" height="900">
         <figure class="livraison-photo">
-          <img src="livraison-camion.jpg" alt="Le camion de livraison de la chocolaterie Wonka" width="1200" height="903">
+          <img src="assets/images/livraison-camion.jpg" alt="Le camion de livraison de la chocolaterie Wonka" width="1200" height="903">
           <figcaption>Le camion de livraison</figcaption>
         </figure>
       </div>
@@ -261,22 +252,22 @@
 
   <div class="panel vert faq">
     <h2 class="titre">On nous demande souvent…</h2>
-    <p class="sous-titre">Extrait de la <a href="faq.html">FAQ générale</a>, recopié ici pour votre confort.</p>
+    <p class="sous-titre">Extrait de la <a href="?page=faq">FAQ générale</a>, recopié ici pour votre confort.</p>
     <details open>
       <summary>Les produits contiennent-ils des noix ?</summary>
-      <p>Certains oui. La <a href="scrumdiddlyumptious-bar.html">Scrumdiddlyumptious Bar</a> contient des noix de pécan caramélisées. En cas de doute, ne goûtez pas les murs.</p>
+      <p>Certains oui. La <a href="?page=scrumdiddlyumptious-bar">Scrumdiddlyumptious Bar</a> contient des noix de pécan caramélisées. En cas de doute, ne goûtez pas les murs.</p>
     </details>
     <details>
       <summary>Peut-on commander depuis l'étranger ?</summary>
-      <p>Oui, sauf pour la <a href="fizzy-lifting-drink.html">Fizzy Lifting Drink</a> : les boissons gazeuses qui font flotter sont interdites dans les avions, les trains et la plupart des immeubles.</p>
+      <p>Oui, sauf pour la <a href="?page=fizzy-lifting-drink">Fizzy Lifting Drink</a> : les boissons gazeuses qui font flotter sont interdites dans les avions, les trains et la plupart des immeubles.</p>
     </details>
     <details>
       <summary>Que faire si un bonbon change de couleur ?</summary>
-      <p>Rien de grave. L'<a href="everlasting-gobstopper.html">Everlasting Gobstopper</a> change de couleur chaque jour de la semaine, c'est sa fonction. Posez-le et attendez le lendemain.</p>
+      <p>Rien de grave. L'<a href="?page=everlasting-gobstopper">Everlasting Gobstopper</a> change de couleur chaque jour de la semaine, c'est sa fonction. Posez-le et attendez le lendemain.</p>
     </details>
     <details>
       <summary>Les produits expérimentaux sont-ils garantis ?</summary>
-      <p>Non. Ils sont observés, documentés, parfois chantés, mais jamais garantis. Si vous devenez violet, le service après-vente vous proposera un jus de citron et une visite guidée. Voir les <a href="confiseries-experimentales.html">Confiseries expérimentales</a>.</p>
+      <p>Non. Ils sont observés, documentés, parfois chantés, mais jamais garantis. Si vous devenez violet, le service après-vente vous proposera un jus de citron et une visite guidée. Voir les <a href="?page=produits">Confiseries expérimentales</a>.</p>
     </details>
   </div>
 </div>
@@ -293,15 +284,15 @@
     </div>
     <div>
       <h4>Besoin d'aide ?</h4>
-      <p><a href="faq.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
+      <p><a href="?page=faq"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
   <path d="M9 6l6 6l-6 6" />
-</svg> Foire aux questions</a><br><a href="contact.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
+</svg> Foire aux questions</a><br><a href="?page=contact"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
   <path d="M9 6l6 6l-6 6" />
-</svg> Nous contacter</a><br><a href="mentions-legales.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
+</svg> Nous contacter</a><br><a href="?page=mentions-legales"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
   <path d="M9 6l6 6l-6 6" />
-</svg> Mentions légales</a><br><a href="recrutement.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
+</svg> Mentions légales</a><br><a href="?page=recrutement"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
   <path d="M9 6l6 6l-6 6" />
-</svg> Travailler à l'usine</a><br><a href="golden-ticket.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
+</svg> Travailler à l'usine</a><br><a href="?page=golden-ticket"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
   <path d="M9 6l6 6l-6 6" />
 </svg> Trouver un Golden Ticket</a></p>
     </div>
@@ -326,5 +317,3 @@ function filtrer(cat) {
   }
 }
 </script>
-</body>
-

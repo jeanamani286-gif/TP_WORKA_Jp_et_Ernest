@@ -1,0 +1,75 @@
+[
+    {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Three-Course Dinner Gum",
+        "description": "Gomme à mâcher reproduisant un repas complet : soupe à la tomate, bœuf rôti et tarte aux myrtilles.",
+        "sku": "TCG-2004-011",
+        "category": "Confiseries expérimentales",
+        "brand": {
+            "@type": "Brand",
+            "name": "Wonka Chocolate Factory"
+        },
+        "offers": {
+            "@type": "Offer",
+            "url": "https://www.wonka-chocolate-factory.example/three-course-dinner-gum.html",
+            "priceCurrency": "EUR",
+            "price": "9.00",
+            "availability": "https://schema.org/LimitedAvailability"
+        }
+    },
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "Le dessert fonctionne-t-il enfin ?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Il fonctionne jusqu'à un certain point. Au-delà, le consommateur devient bleu. Un jus de citron est alors offert."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Les produits expérimentaux sont-ils garantis ?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Non. Ils sont observés, documentés, parfois chantés, mais jamais garantis."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Peut-on partager la gomme ?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Techniquement oui, mais la deuxième personne commencera au plat principal, ce qui est décevant."
+                }
+            }
+        ]
+    },
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Accueil",
+                "item": "https://www.wonka-chocolate-factory.example/index.html"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Produits",
+                "item": "https://www.wonka-chocolate-factory.example/produits.html"
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Three-Course Dinner Gum",
+                "item": "https://www.wonka-chocolate-factory.example/three-course-dinner-gum.html"
+            }
+        ]
+    }
+]

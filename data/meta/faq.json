@@ -1,0 +1,14 @@
+{
+    "title": "FAQ - 10 questions sur la Wonka Chocolate Factory",
+    "description": "Toutes les réponses aux questions sur la chocolaterie Wonka : Golden Ticket, Gobstoppers éternels, boissons qui font flotter, noix, livraison internationale et recrutement.",
+    "author": "Service client Wonka",
+    "canonical": "https://www.wonka-chocolate-factory.example/faq.html",
+    "og": {
+        "og:type": "website",
+        "og:title": "FAQ Wonka Chocolate Factory - les 10 questions que tout le monde pose",
+        "og:description": "Peut-on visiter sans ticket ? Les Gobstoppers sont-ils vraiment éternels ? Réponses officielles et parfois hésitantes.",
+        "og:url": "https://www.wonka-chocolate-factory.example/faq.html",
+        "og:site_name": "Wonka Chocolate Factory",
+        "og:locale": "fr_FR"
+    }
+}

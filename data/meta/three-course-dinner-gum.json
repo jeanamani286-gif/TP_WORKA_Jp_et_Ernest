@@ -1,0 +1,14 @@
+{
+    "title": "Three-Course Dinner Gum - un repas complet en une gomme | Wonka",
+    "description": "La Three-Course Dinner Gum : soupe à la tomate, bœuf rôti et tarte aux myrtilles en une seule gomme à mâcher. Avertissements, composition et rareté.",
+    "author": "Laboratoire Wonka, 4e étage",
+    "canonical": "https://www.wonka-chocolate-factory.example/three-course-dinner-gum.html",
+    "og": {
+        "og:type": "product",
+        "og:title": "Three-Course Dinner Gum - entrée, plat, dessert",
+        "og:description": "Interdit aux Oompa Loompas. Le dessert reste le point faible du produit.",
+        "og:url": "https://www.wonka-chocolate-factory.example/three-course-dinner-gum.html",
+        "og:site_name": "Wonka Chocolate Factory",
+        "og:locale": "fr_FR"
+    }
+}

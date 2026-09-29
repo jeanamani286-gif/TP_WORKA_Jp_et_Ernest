@@ -1,9 +1,8 @@
-
 <div class="topbar"><span class="bande">★ Bienvenue à la Wonka Chocolate Factory ★ Il reste 5 Golden Tickets cachés cette année ★ Livraison par pigeons entraînés ★ Ni repris, ni échangé, ni remboursé en bonbons ★ Le service expédition chante pendant le travail ★</span></div>
 
 <header class="site">
   <div class="wrap">
-    <p class="logo"><a href="index.html" aria-label="Wonka Chocolate Factory - Accueil"><img src="../public/assets/images/logo-wonka.png" alt="Wonka Chocolate Factory" width="2000" height="1125"></a></p>
+    <p class="logo"><a href="?page=accueil" aria-label="Wonka Chocolate Factory - Accueil"><img src="assets/images/logo-wonka.png" alt="Wonka Chocolate Factory" width="2000" height="1125"></a></p>
     <input type="checkbox" id="menu-toggle" class="menu-toggle">
     <label for="menu-toggle" class="burger" aria-label="Ouvrir le menu"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
   <path d="M4 6l16 0" />
@@ -11,12 +10,12 @@
   <path d="M4 18l16 0" />
 </svg></label>
     <nav class="main">
-      <a href="accueil.php">Accueil</a>
-      <a href="produits.php">Produits</a>
-      <a href="visite-usine.php">Visiter l'usine</a>
-      <a href="histoire.php">Notre histoire</a>
-      <a href="faq.php">FAQ</a>
-      <a href="contact.php">Contact</a>
+      <a href="?page=accueil">Accueil</a>
+      <a href="?page=produits">Produits</a>
+      <a href="?page=visite-usine">Visiter l'usine</a>
+      <a href="?page=histoire">Notre histoire</a>
+      <a href="?page=faq">FAQ</a>
+      <a href="?page=contact">Contact</a>
     </nav>
   </div>
 </header>
@@ -42,14 +41,14 @@
       <h1>La chocolaterie<br>la plus <em>étrange</em><br>du monde.</h1>
       <p class="lead">Du chocolat qui fond dans le bon sens, des bonbons qui ne fondent jamais, des boissons qui vous font toucher le plafond. Tout est fabriqué à la main par des personnes très petites et très motivées.</p>
       <p>
-        <a href="produits.php" class="btn btn-vert">Voir les chocolats</a>
+        <a href="?page=produits" class="btn btn-vert">Voir les chocolats</a>
       </p>
     </div>
     <div>
       <div class="usine-visuels">
-        <img class="usine-fond" src="interieur-usine.jpg" alt="Intérieur de la chocolaterie Wonka" width="3000" height="2000">
+        <img class="usine-fond" src="assets/images/interieur-usine.jpg" alt="Intérieur de la chocolaterie Wonka" width="3000" height="2000">
         <figure class="usine-photo">
-          <img src="exterieur-usine.png" alt="Façade extérieure de la Wonka Chocolate Factory" width="565" height="353">
+          <img src="assets/images/exterieur-usine.png" alt="Façade extérieure de la Wonka Chocolate Factory" width="565" height="353">
           <figcaption>La façade officielle</figcaption>
         </figure>
       </div>
@@ -196,7 +195,7 @@
     <div class="hero-riviere reveal">
       <h2>La rivière de chocolat vous attend</h2>
       <p>Un fleuve entièrement comestible, mélangé à la cascade, que vous aurez l'interdiction formelle de goûter. C'est tout l'intérêt de venir le voir en vrai.</p>
-      <a href="visite-usine.html" class="btn btn-ticket">Réserver ma visite</a>
+      <a href="?page=visite-usine" class="btn btn-ticket">Réserver ma visite</a>
     </div>
   </div>
 </section>
@@ -215,7 +214,7 @@
         <h3>Wonka Bar</h3>
         <p style="font-size:13px;margin:0 0 8px">La barre qui a rendu cinq enfants célèbres.</p>
         <p class="prix">3,50 €</p>
-        <a class="btn btn-petit" href="wonka-bar.html">Voir la fiche</a>
+        <a class="btn btn-petit" href="?page=wonka-bar">Voir la fiche</a>
       </div>
       <div class="carte reveal">
         <div class="visuel" style="background:#f4b8d6"><span class="badge jaune">Très rare</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
@@ -229,7 +228,7 @@
         <h3>Everlasting Gobstopper</h3>
         <p style="font-size:13px;margin:0 0 8px">Ça ne fond jamais. Jamais.</p>
         <p class="prix">12,00 €</p>
-        <a class="btn btn-petit" href="everlasting-gobstopper.html">Voir la fiche</a>
+        <a class="btn btn-petit" href="?page=everlasting-gobstopper">Voir la fiche</a>
       </div>
       <div class="carte reveal">
         <div class="visuel" style="background:#c7ecf7"><span class="badge bleu">Édition limitée</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
@@ -240,7 +239,7 @@
         <h3>Fizzy Lifting Drink</h3>
         <p style="font-size:13px;margin:0 0 8px">Buvez, flottez, touchez le plafond.</p>
         <p class="prix">6,50 €</p>
-        <a class="btn btn-petit" href="fizzy-lifting-drink.html">Voir la fiche</a>
+        <a class="btn btn-petit" href="?page=fizzy-lifting-drink">Voir la fiche</a>
       </div>
       <div class="carte reveal">
         <div class="visuel" style="background:#e2c9f5"><span class="badge vert">Signature</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
@@ -254,10 +253,10 @@
         <h3>Scrumdiddlyumptious Bar</h3>
         <p style="font-size:13px;margin:0 0 8px">Le mot n'existe pas. Le chocolat si.</p>
         <p class="prix">5,50 €</p>
-        <a class="btn btn-petit" href="scrumdiddlyumptious-bar.html">Voir la fiche</a>
+        <a class="btn btn-petit" href="?page=scrumdiddlyumptious-bar">Voir la fiche</a>
       </div>
     </div>
-    <p style="text-align:center;margin-top:26px"><a href="produits.html" class="btn btn-rose">Voir les 8 produits du catalogue</a></p>
+    <p style="text-align:center;margin-top:26px"><a href="?page=produits" class="btn btn-rose">Voir les 8 produits du catalogue</a></p>
     <hr class="bonbon" style="margin-top:64px">
   </div>
 </section>
@@ -265,7 +264,7 @@
 <section style="padding:0 0 80px">
   <div class="wrap">
     <h2 class="titre reveal">Visiter l'usine en 4 étapes</h2>
-    <p class="sous-titre reveal">Détail complet sur la page <a href="visite-usine.html">Visiter l'usine</a>.</p>
+    <p class="sous-titre reveal">Détail complet sur la page <a href="?page=visite-usine">Visiter l'usine</a>.</p>
     <div class="visite-bloc reveal">
       <div class="etapes">
         <div class="etape">
@@ -276,7 +275,7 @@
   <path d="M5 5h14a2 2 0 0 1 2 2v3a2 2 0 0 0 0 4v3a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-3a2 2 0 0 0 0 -4v-3a2 2 0 0 1 2 -2" />
 </svg></span></div>
           <h3 style="margin:0 0 6px;font-size:19px">Trouver un ticket</h3>
-          <p style="font-size:13px;margin:0">Dans une <a href="wonka-bar.html">Wonka Bar</a> ou dans un <a href="golden-egg.html">Golden Egg</a>. Jamais ailleurs, et surtout pas sur internet.</p>
+          <p style="font-size:13px;margin:0">Dans une <a href="?page=wonka-bar">Wonka Bar</a> ou dans un <a href="?page=golden-egg">Golden Egg</a>. Jamais ailleurs, et surtout pas sur internet.</p>
         </div>
         <div class="etape">
           <div class="etape-entete"><span class="n">2</span><span class="ico"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
@@ -308,25 +307,25 @@
         </div>
       </div>
       <figure class="visite-photo">
-        <img src="labo-chocolat.png" alt="Le laboratoire de chocolat de l'usine Wonka" width="1122" height="1402">
+        <img src="assets/images/labo-chocolat.png" alt="Le laboratoire de chocolat de l'usine Wonka" width="1122" height="1402">
         <figcaption>Le laboratoire chocolat</figcaption>
       </figure>
     </div>
 
     <div class="panel vert reveal faq">
       <h2 class="titre">Questions fréquentes</h2>
-      <p class="sous-titre">Extrait. La liste complète (10 questions) est sur la page <a href="faq.html">FAQ</a>.</p>
+      <p class="sous-titre">Extrait. La liste complète (10 questions) est sur la page <a href="?page=faq">FAQ</a>.</p>
       <details open>
         <summary>Peut-on visiter l'usine sans Golden Ticket ?</summary>
-        <p>Non. Absolument non. L'usine est verrouillée, et le gardien est très poli mais très ferme. Voir la page <a href="visite-usine.html">Visiter l'usine</a> pour les rares exceptions.</p>
+        <p>Non. Absolument non. L'usine est verrouillée, et le gardien est très poli mais très ferme. Voir la page <a href="?page=visite-usine">Visiter l'usine</a> pour les rares exceptions.</p>
       </details>
       <details>
         <summary>Les produits contiennent-ils des noix ?</summary>
-        <p>Certains oui. La <a href="scrumdiddlyumptious-bar.html">Scrumdiddlyumptious Bar</a> contient des noix de pécan caramélisées. En cas de doute, ne goûtez pas les murs.</p>
+        <p>Certains oui. La <a href="?page=scrumdiddlyumptious-bar">Scrumdiddlyumptious Bar</a> contient des noix de pécan caramélisées. En cas de doute, ne goûtez pas les murs.</p>
       </details>
       <details>
         <summary>Peut-on commander depuis l'étranger ?</summary>
-        <p>Oui, sauf pour la <a href="fizzy-lifting-drink.html">Fizzy Lifting Drink</a> : les boissons gazeuses qui font flotter sont interdites dans les avions, les trains et la plupart des immeubles.</p>
+        <p>Oui, sauf pour la <a href="?page=fizzy-lifting-drink">Fizzy Lifting Drink</a> : les boissons gazeuses qui font flotter sont interdites dans les avions, les trains et la plupart des immeubles.</p>
       </details>
     </div>
   </div>

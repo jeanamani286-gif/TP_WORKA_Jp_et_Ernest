@@ -2,7 +2,7 @@
 
 <header class="site">
   <div class="wrap">
-    <p class="logo"><a href="index.html" aria-label="Wonka Chocolate Factory - Accueil"><img src="logo-wonka.png" alt="Wonka Chocolate Factory" width="2000" height="1125"></a></p>
+    <p class="logo"><a href="?page=accueil" aria-label="Wonka Chocolate Factory - Accueil"><img src="assets/images/logo-wonka.png" alt="Wonka Chocolate Factory" width="2000" height="1125"></a></p>
     <input type="checkbox" id="menu-toggle" class="menu-toggle">
     <label for="menu-toggle" class="burger" aria-label="Ouvrir le menu"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
   <path d="M4 6l16 0" />
@@ -10,12 +10,12 @@
   <path d="M4 18l16 0" />
 </svg></label>
     <nav class="main">
-      <a href="index.html">Accueil</a>
-      <a href="produits.html">Produits</a>
-      <a href="visite-usine.html">Visiter l'usine</a>
-      <a href="histoire.html">Notre histoire</a>
-      <a href="faq.html">FAQ</a>
-      <a href="contact.html">Contact</a>
+      <a href="?page=accueil">Accueil</a>
+      <a href="?page=produits">Produits</a>
+      <a href="?page=visite-usine">Visiter l'usine</a>
+      <a href="?page=histoire">Notre histoire</a>
+      <a href="?page=faq">FAQ</a>
+      <a href="?page=contact">Contact</a>
     </nav>
   </div>
 </header>
@@ -34,7 +34,7 @@
 </script>
 
 <div class="wrap">
-  <p class="fil"><a href="index.html">Accueil</a> › Contact</p>
+  <p class="fil"><a href="?page=accueil">Accueil</a> › Contact</p>
 
   <div class="bandeau-page">
     <h1>Nous écrire</h1>
@@ -100,9 +100,9 @@
 
   <div class="panel contact-visit-cta contact-note">
     <h2 class="titre">Plutôt envie de venir ?</h2>
-    <p><a href="visite-usine.html">Toutes les informations de visite</a> — ou la <a href="faq.html">FAQ complète</a>.</p>
-    <a href="visite-usine.html" class="btn btn-vert">Préparer ma visite</a>
-    <a href="faq.html" class="btn btn-bleu">Lire la FAQ</a>
+    <p><a href="?page=visite-usine">Toutes les informations de visite</a> — ou la <a href="?page=faq">FAQ complète</a>.</p>
+    <a href="?page=visite-usine" class="btn btn-vert">Préparer ma visite</a>
+    <a href="?page=faq" class="btn btn-bleu">Lire la FAQ</a>
   </div>
 
   </div>
@@ -111,13 +111,13 @@
 
   <section class="contact-photo" aria-labelledby="contact-photo-title">
     <figure>
-      <img src="interieur-usine.jpg" alt="Salle colorée à l'intérieur de la chocolaterie Wonka" width="3000" height="2000">
+      <img src="assets/images/interieur-usine.jpg" alt="Salle colorée à l'intérieur de la chocolaterie Wonka" width="3000" height="2000">
     </figure>
     <div class="contact-photo-copy">
       <span class="badge bleu">Une lettre bien arrivée</span>
       <h2 class="titre" id="contact-photo-title">Votre message prend le bon chemin</h2>
       <p>Chaque demande traverse le bureau des lettres, la salle des cachets et parfois la rivière de chocolat avant d'arriver à la bonne personne.</p>
-      <a href="faq.html" class="btn btn-bleu">Consulter les réponses</a>
+      <a href="?page=faq" class="btn btn-bleu">Consulter les réponses</a>
     </div>
   </section>
 
@@ -125,15 +125,15 @@
     <h2 class="titre">Avant d'écrire, lisez ceci</h2>
     <details open>
       <summary>Les produits contiennent-ils des noix ?</summary>
-      <p>Certains oui. La <a href="scrumdiddlyumptious-bar.html">Scrumdiddlyumptious Bar</a> contient des noix de pécan caramélisées. En cas de doute, ne goûtez pas les murs.</p>
+      <p>Certains oui. La <a href="?page=scrumdiddlyumptious-bar">Scrumdiddlyumptious Bar</a> contient des noix de pécan caramélisées. En cas de doute, ne goûtez pas les murs.</p>
     </details>
     <details>
       <summary>Que faire si un bonbon change de couleur ?</summary>
-      <p>Rien de grave. L'<a href="everlasting-gobstopper.html">Everlasting Gobstopper</a> change de couleur chaque jour de la semaine, c'est sa fonction. Posez-le et attendez le lendemain.</p>
+      <p>Rien de grave. L'<a href="?page=everlasting-gobstopper">Everlasting Gobstopper</a> change de couleur chaque jour de la semaine, c'est sa fonction. Posez-le et attendez le lendemain.</p>
     </details>
     <details>
       <summary>Peut-on commander depuis l'étranger ?</summary>
-      <p>Oui, sauf pour la <a href="fizzy-lifting-drink.html">Fizzy Lifting Drink</a> : les boissons gazeuses qui font flotter sont interdites dans les avions, les trains et la plupart des immeubles.</p>
+      <p>Oui, sauf pour la <a href="?page=fizzy-lifting-drink">Fizzy Lifting Drink</a> : les boissons gazeuses qui font flotter sont interdites dans les avions, les trains et la plupart des immeubles.</p>
     </details>
   </div>
 </div>

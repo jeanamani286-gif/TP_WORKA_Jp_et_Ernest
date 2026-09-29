@@ -1,0 +1,75 @@
+[
+    {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Golden Egg",
+        "description": "Œuf doré de collection, numéroté, contenant un bonbon rare et un rêve.",
+        "sku": "GE-2019-002",
+        "category": "Collection & objets",
+        "brand": {
+            "@type": "Brand",
+            "name": "Wonka Chocolate Factory"
+        },
+        "offers": {
+            "@type": "Offer",
+            "url": "https://www.wonka-chocolate-factory.example/golden-egg.html",
+            "priceCurrency": "EUR",
+            "price": "89.00",
+            "availability": "https://schema.org/LimitedAvailability"
+        }
+    },
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "Un Golden Egg contient-il un Golden Ticket ?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Rarement. Sur 300 œufs numérotés, un contient un ticket. Les autres contiennent un bonbon rare et un rêve."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "L'œuf est-il comestible ?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "La coque est en chocolat doré, oui. Le contenu se mange. Le rêve, non."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Peut-on le revendre ?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Légalement oui. Moralement, l'usine désapprouve fortement."
+                }
+            }
+        ]
+    },
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Accueil",
+                "item": "https://www.wonka-chocolate-factory.example/index.html"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Produits",
+                "item": "https://www.wonka-chocolate-factory.example/produits.html"
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Golden Egg",
+                "item": "https://www.wonka-chocolate-factory.example/golden-egg.html"
+            }
+        ]
+    }
+]

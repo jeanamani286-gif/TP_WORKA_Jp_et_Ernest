@@ -1,0 +1,14 @@
+{
+    "title": "Scrumdiddlyumptious Bar - la barre signature | Wonka Chocolate Factory",
+    "description": "La Scrumdiddlyumptious Bar : chocolat noir 64 %, noix de pécan caramélisées, éclats de caramel dur. Fiche produit complète, prix et rareté.",
+    "author": "Atelier barres Wonka",
+    "canonical": "https://www.wonka-chocolate-factory.example/scrumdiddlyumptious-bar.html",
+    "og": {
+        "og:type": "product",
+        "og:title": "Scrumdiddlyumptious Bar - 5,50 € de pur vocabulaire inventé",
+        "og:description": "Le mot n'existe pas dans le dictionnaire. Le chocolat, si. 64 % de cacao, noix de pécan.",
+        "og:url": "https://www.wonka-chocolate-factory.example/scrumdiddlyumptious-bar.html",
+        "og:site_name": "Wonka Chocolate Factory",
+        "og:locale": "fr_FR"
+    }
+}

@@ -1,0 +1,75 @@
+[
+    {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Scrumdiddlyumptious Bar",
+        "description": "Barre de chocolat noir 64 % aux noix de pécan caramélisées et éclats de caramel dur.",
+        "sku": "SB-1998-004",
+        "category": "Barres signature",
+        "brand": {
+            "@type": "Brand",
+            "name": "Wonka Chocolate Factory"
+        },
+        "offers": {
+            "@type": "Offer",
+            "url": "https://www.wonka-chocolate-factory.example/scrumdiddlyumptious-bar.html",
+            "priceCurrency": "EUR",
+            "price": "5.50",
+            "availability": "https://schema.org/InStock"
+        }
+    },
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "Que veut dire scrumdiddlyumptious ?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Rien. Le mot a été inventé par M. Wonka en 1998 et n'a jamais été défini, malgré trois tentatives de la direction marketing."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Les produits contiennent-ils des noix ?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Oui pour cette barre : elle contient des noix de pécan caramélisées."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Peut-on commander depuis l'étranger ?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Oui. Contrairement à la Fizzy Lifting Drink, la Scrumdiddlyumptious Bar voyage très bien."
+                }
+            }
+        ]
+    },
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Accueil",
+                "item": "https://www.wonka-chocolate-factory.example/index.html"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Produits",
+                "item": "https://www.wonka-chocolate-factory.example/produits.html"
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Scrumdiddlyumptious Bar",
+                "item": "https://www.wonka-chocolate-factory.example/scrumdiddlyumptious-bar.html"
+            }
+        ]
+    }
+]

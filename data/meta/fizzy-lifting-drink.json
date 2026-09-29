@@ -1,0 +1,14 @@
+{
+    "title": "Fizzy Lifting Drink - la boisson qui fait flotter | Wonka",
+    "description": "La Fizzy Lifting Drink : une boisson gazeuse qui fait décoller. Prix, composition, avertissements très sérieux et disponibilité en édition limitée.",
+    "author": "Atelier boissons gazeuses Wonka",
+    "canonical": "https://www.wonka-chocolate-factory.example/fizzy-lifting-drink.html",
+    "og": {
+        "og:type": "product",
+        "og:title": "Fizzy Lifting Drink - buvez, flottez, touchez le plafond",
+        "og:description": "Édition limitée. Rot obligatoire avant l'atterrissage. Ne pas consommer près d'un ventilateur.",
+        "og:url": "https://www.wonka-chocolate-factory.example/fizzy-lifting-drink.html",
+        "og:site_name": "Wonka Chocolate Factory",
+        "og:locale": "fr_FR"
+    }
+}

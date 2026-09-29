@@ -1,38 +1,8 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Travailler à l'usine - Offres d'emploi Wonka Chocolate Factory</title>
-<meta name="description" content="Les offres d'emploi de la chocolaterie Wonka : goûteur, polisseur de bonbons, chanteur de couloir, gardien de l'entrée. Conditions et processus de recrutement.">
-<meta name="author" content="Ressources humaines Wonka (une personne, à mi-temps)">
-<link rel="canonical" href="https://www.wonka-chocolate-factory.example/recrutement.html">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Travailler à la chocolaterie Wonka - 4 postes ouverts">
-<meta property="og:description" content="Goûteurs, polisseurs, chanteurs. Paiement en euros pour les humains, en fèves pour les autres.">
-<meta property="og:url" content="https://www.wonka-chocolate-factory.example/recrutement.html">
-<meta property="og:site_name" content="Wonka Chocolate Factory">
-<meta property="og:locale" content="fr_FR">
-<style>
-</style>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    { "@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://www.wonka-chocolate-factory.example/index.html" },
-    { "@type": "ListItem", "position": 2, "name": "Travailler à l'usine", "item": "https://www.wonka-chocolate-factory.example/recrutement.html" }
-  ]
-}
-</script>
-</head>
-<body>
-
 <div class="topbar"><span class="bande">★ 4 postes ouverts ★ Le chant n'est pas optionnel ★ Les humains sont payés en euros ★</span></div>
 
 <header class="site">
   <div class="wrap">
-    <p class="logo"><a href="index.html" aria-label="Wonka Chocolate Factory - Accueil"><img src="logo-wonka.png" alt="Wonka Chocolate Factory" width="2000" height="1125"></a></p>
+    <p class="logo"><a href="?page=accueil" aria-label="Wonka Chocolate Factory - Accueil"><img src="assets/images/logo-wonka.png" alt="Wonka Chocolate Factory" width="2000" height="1125"></a></p>
     <input type="checkbox" id="menu-toggle" class="menu-toggle">
     <label for="menu-toggle" class="burger" aria-label="Ouvrir le menu"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
   <path d="M4 6l16 0" />
@@ -40,12 +10,12 @@
   <path d="M4 18l16 0" />
 </svg></label>
     <nav class="main">
-      <a href="index.html">Accueil</a>
-      <a href="produits.html">Produits</a>
-      <a href="visite-usine.html">Visiter l'usine</a>
-      <a href="histoire.html">Notre histoire</a>
-      <a href="faq.html">FAQ</a>
-      <a href="contact.html">Contact</a>
+      <a href="?page=accueil">Accueil</a>
+      <a href="?page=produits">Produits</a>
+      <a href="?page=visite-usine">Visiter l'usine</a>
+      <a href="?page=histoire">Notre histoire</a>
+      <a href="?page=faq">FAQ</a>
+      <a href="?page=contact">Contact</a>
     </nav>
   </div>
 </header>
@@ -64,7 +34,7 @@
 </script>
 
 <div class="wrap">
-  <p class="fil"><a href="index.html">Accueil</a> › Travailler à l'usine</p>
+  <p class="fil"><a href="?page=accueil">Accueil</a> › Travailler à l'usine</p>
 
   <div class="bandeau-page">
     <h1>Travailler à l'usine</h1>
@@ -96,7 +66,7 @@
     <div class="poste">
       <span class="badge">CDI</span> <span class="badge rose">Atelier bonbons durs</span>
       <h3>Polisseur de bonbons</h3>
-      <p>Vous polissez les <a href="everlasting-gobstopper.html">Everlasting Gobstoppers</a> un par un, à la main, onze minutes par pièce. Le poste est méditatif. Très méditatif.</p>
+      <p>Vous polissez les <a href="?page=everlasting-gobstopper">Everlasting Gobstoppers</a> un par un, à la main, onze minutes par pièce. Le poste est méditatif. Très méditatif.</p>
       <ul>
         <li>Expérience : aucune, mais une grande patience</li>
         <li>Qualités : minutie, silence, résistance à la répétition</li>
@@ -160,11 +130,11 @@
       </details>
       <details>
         <summary>Peut-on visiter l'usine sans Golden Ticket ?</summary>
-        <p>Non, sauf si vous êtes embauché : les salariés entrent par la porte de service, qui est orange. Voir <a href="visite-usine.html">Visiter l'usine</a>.</p>
+        <p>Non, sauf si vous êtes embauché : les salariés entrent par la porte de service, qui est orange. Voir <a href="?page=visite-usine">Visiter l'usine</a>.</p>
       </details>
       <details>
         <summary>Les produits expérimentaux sont-ils garantis ?</summary>
-        <p>Non. Et les goûteurs signent une décharge. Voir <a href="confiseries-experimentales.html">Confiseries expérimentales</a> et la <a href="faq.html">FAQ générale</a>.</p>
+        <p>Non. Et les goûteurs signent une décharge. Voir <a href="?page=produits">Confiseries expérimentales</a> et la <a href="?page=faq">FAQ générale</a>.</p>
       </details>
     </div>
   </section>
@@ -182,15 +152,15 @@
     </div>
     <div>
       <h4>Besoin d'aide ?</h4>
-      <p><a href="faq.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
+      <p><a href="?page=faq"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
   <path d="M9 6l6 6l-6 6" />
-</svg> Foire aux questions</a><br><a href="contact.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
+</svg> Foire aux questions</a><br><a href="?page=contact"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
   <path d="M9 6l6 6l-6 6" />
-</svg> Nous contacter</a><br><a href="mentions-legales.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
+</svg> Nous contacter</a><br><a href="?page=mentions-legales"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
   <path d="M9 6l6 6l-6 6" />
-</svg> Mentions légales</a><br><a href="recrutement.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
+</svg> Mentions légales</a><br><a href="?page=recrutement"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
   <path d="M9 6l6 6l-6 6" />
-</svg> Travailler à l'usine</a><br><a href="golden-ticket.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
+</svg> Travailler à l'usine</a><br><a href="?page=golden-ticket"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
   <path d="M9 6l6 6l-6 6" />
 </svg> Trouver un Golden Ticket</a></p>
     </div>
@@ -216,5 +186,3 @@ function envoyerCandidature(e) {
 }
 
 </script>
-</body>
-</html>

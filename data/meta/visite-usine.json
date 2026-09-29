@@ -1,0 +1,14 @@
+{
+    "title": "Visiter l'usine Wonka - Billetterie, horaires et règlement",
+    "description": "Comment visiter la Wonka Chocolate Factory : Golden Ticket obligatoire, groupes de 5 enfants maximum, règlement intérieur, parcours de visite et tarifs.",
+    "author": "Bureau des visites Wonka",
+    "canonical": "https://www.wonka-chocolate-factory.example/visite-usine.html",
+    "og": {
+        "og:type": "website",
+        "og:title": "Visiter la chocolaterie Wonka - 5 visiteurs par an, pas un de plus",
+        "og:description": "Contrat de 47 pages, rivière de chocolat et ascenseur capricieux. Toutes les informations pratiques sont ici.",
+        "og:url": "https://www.wonka-chocolate-factory.example/visite-usine.html",
+        "og:site_name": "Wonka Chocolate Factory",
+        "og:locale": "fr_FR"
+    }
+}

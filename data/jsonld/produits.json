@@ -1,0 +1,68 @@
+[
+    {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "name": "Catalogue Wonka Chocolate Factory",
+        "numberOfItems": 8,
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "url": "https://www.wonka-chocolate-factory.example/wonka-bar.html"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "url": "https://www.wonka-chocolate-factory.example/everlasting-gobstopper.html"
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "url": "https://www.wonka-chocolate-factory.example/fizzy-lifting-drink.html"
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "url": "https://www.wonka-chocolate-factory.example/three-course-dinner-gum.html"
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "url": "https://www.wonka-chocolate-factory.example/lickable-wallpaper.html"
+            },
+            {
+                "@type": "ListItem",
+                "position": 6,
+                "url": "https://www.wonka-chocolate-factory.example/golden-egg.html"
+            },
+            {
+                "@type": "ListItem",
+                "position": 7,
+                "url": "https://www.wonka-chocolate-factory.example/scrumdiddlyumptious-bar.html"
+            },
+            {
+                "@type": "ListItem",
+                "position": 8,
+                "url": "https://www.wonka-chocolate-factory.example/invisible-chocolate.html"
+            }
+        ]
+    },
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Accueil",
+                "item": "https://www.wonka-chocolate-factory.example/index.html"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Produits",
+                "item": "https://www.wonka-chocolate-factory.example/produits.html"
+            }
+        ]
+    }
+]

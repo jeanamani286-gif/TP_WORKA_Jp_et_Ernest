@@ -1,0 +1,75 @@
+[
+    {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Wonka Bar",
+        "description": "Barre de chocolat au lait fourrée au caramel mou. Peut contenir un Golden Ticket.",
+        "sku": "WB-1971-001",
+        "category": "Barres classiques",
+        "brand": {
+            "@type": "Brand",
+            "name": "Wonka Chocolate Factory"
+        },
+        "offers": {
+            "@type": "Offer",
+            "url": "https://www.wonka-chocolate-factory.example/wonka-bar.html",
+            "priceCurrency": "EUR",
+            "price": "3.50",
+            "availability": "https://schema.org/InStock"
+        }
+    },
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "Combien de Golden Tickets par an ?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Cinq. Pas un de plus. Ils sont répartis dans la production annuelle de Wonka Bars."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Les produits contiennent-ils des noix ?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Certains oui. La Wonka Bar peut contenir des traces de fruits à coque issus de la même chaîne de fabrication."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Peut-on commander depuis l'étranger ?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Oui, la Wonka Bar voyage très bien, contrairement à la Fizzy Lifting Drink."
+                }
+            }
+        ]
+    },
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Accueil",
+                "item": "https://www.wonka-chocolate-factory.example/index.html"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Produits",
+                "item": "https://www.wonka-chocolate-factory.example/produits.html"
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Wonka Bar",
+                "item": "https://www.wonka-chocolate-factory.example/wonka-bar.html"
+            }
+        ]
+    }
+]

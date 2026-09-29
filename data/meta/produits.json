@@ -1,0 +1,14 @@
+{
+    "title": "Produits - Catalogue complet Wonka Chocolate Factory",
+    "description": "Le catalogue des chocolats et confiseries Wonka : Wonka Bar, Gobstopper éternel, Scrumdiddlyumptious Bar, Œuf doré et autres raretés. Prix, rareté et disponibilité.",
+    "author": "Service communication Wonka",
+    "canonical": "https://www.wonka-chocolate-factory.example/produits.html",
+    "og": {
+        "og:type": "website",
+        "og:title": "Les produits Wonka - 8 produits, 1 seule usine",
+        "og:description": "Barres classiques, confiseries expérimentales et objets de collection. Certaines références sont interdites aux Oompa Loompas.",
+        "og:url": "https://www.wonka-chocolate-factory.example/produits.html",
+        "og:site_name": "Wonka Chocolate Factory",
+        "og:locale": "fr_FR"
+    }
+}

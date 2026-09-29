@@ -10,6 +10,6 @@
 <script>location.replace("produits.html");</script>
 </head>
 <body>
-<p>Cette page a fusionné avec <a href="produits.html">la page Produits</a>.</p>
+<p>Cette page a fusionné avec <a href="?page=produits">la page Produits</a>.</p>
 </body>
 </html>

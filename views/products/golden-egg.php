@@ -1,67 +1,8 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Golden Egg - l'œuf doré de collection | Wonka Chocolate Factory</title>
-<meta name="description" content="Le Golden Egg : œuf doré de collection contenant un bonbon rare et un rêve. Prix, rareté très élevée, édition limitée et conditions d'obtention.">
-<meta name="author" content="Bureau des objets rares Wonka">
-<link rel="canonical" href="https://www.wonka-chocolate-factory.example/golden-egg.html">
-<meta property="og:type" content="product">
-<meta property="og:title" content="Golden Egg - 89 €, pondu par une poule très motivée">
-<meta property="og:description" content="Objet de collection numéroté. Contient un bonbon rare, un rêve et parfois un ticket.">
-<meta property="og:url" content="https://www.wonka-chocolate-factory.example/golden-egg.html">
-<meta property="og:site_name" content="Wonka Chocolate Factory">
-<meta property="og:locale" content="fr_FR">
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Product",
-  "name": "Golden Egg",
-  "description": "Œuf doré de collection, numéroté, contenant un bonbon rare et un rêve.",
-  "sku": "GE-2019-002",
-  "category": "Collection & objets",
-  "brand": { "@type": "Brand", "name": "Wonka Chocolate Factory" },
-  "offers": {
-    "@type": "Offer",
-    "url": "https://www.wonka-chocolate-factory.example/golden-egg.html",
-    "priceCurrency": "EUR",
-    "price": "89.00",
-    "availability": "https://schema.org/LimitedAvailability"
-  }
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    { "@type": "Question", "name": "Un Golden Egg contient-il un Golden Ticket ?", "acceptedAnswer": { "@type": "Answer", "text": "Rarement. Sur 300 œufs numérotés, un contient un ticket. Les autres contiennent un bonbon rare et un rêve." } },
-    { "@type": "Question", "name": "L'œuf est-il comestible ?", "acceptedAnswer": { "@type": "Answer", "text": "La coque est en chocolat doré, oui. Le contenu se mange. Le rêve, non." } },
-    { "@type": "Question", "name": "Peut-on le revendre ?", "acceptedAnswer": { "@type": "Answer", "text": "Légalement oui. Moralement, l'usine désapprouve fortement." } }
-  ]
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    { "@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://www.wonka-chocolate-factory.example/index.html" },
-    { "@type": "ListItem", "position": 2, "name": "Produits", "item": "https://www.wonka-chocolate-factory.example/produits.html" },
-    { "@type": "ListItem", "position": 3, "name": "Golden Egg", "item": "https://www.wonka-chocolate-factory.example/golden-egg.html" }
-  ]
-}
-</script>
-</head>
-<body>
-
 <div class="topbar"><span class="bande">★ Golden Egg ★ 300 exemplaires numérotés par an ★ Un seul contient peut-être un ticket ★ Livré dans une boîte en velours ★</span></div>
 
 <header class="site">
   <div class="wrap">
-    <p class="logo"><a href="index.html" aria-label="Wonka Chocolate Factory - Accueil"><img src="logo-wonka.png" alt="Wonka Chocolate Factory" width="2000" height="1125"></a></p>
+    <p class="logo"><a href="?page=accueil" aria-label="Wonka Chocolate Factory - Accueil"><img src="assets/images/logo-wonka.png" alt="Wonka Chocolate Factory" width="2000" height="1125"></a></p>
     <input type="checkbox" id="menu-toggle" class="menu-toggle">
     <label for="menu-toggle" class="burger" aria-label="Ouvrir le menu"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
   <path d="M4 6l16 0" />
@@ -69,12 +10,12 @@
   <path d="M4 18l16 0" />
 </svg></label>
     <nav class="main">
-      <a href="index.html">Accueil</a>
-      <a href="produits.html">Produits</a>
-      <a href="visite-usine.html">Visiter l'usine</a>
-      <a href="histoire.html">Notre histoire</a>
-      <a href="faq.html">FAQ</a>
-      <a href="contact.html">Contact</a>
+      <a href="?page=accueil">Accueil</a>
+      <a href="?page=produits">Produits</a>
+      <a href="?page=visite-usine">Visiter l'usine</a>
+      <a href="?page=histoire">Notre histoire</a>
+      <a href="?page=faq">FAQ</a>
+      <a href="?page=contact">Contact</a>
     </nav>
   </div>
 </header>
@@ -93,7 +34,7 @@
 </script>
 
 <div class="wrap">
-  <p class="fil"><a href="index.html">Accueil</a> › <a href="produits.html">Produits</a> › Golden Egg</p>
+  <p class="fil"><a href="?page=accueil">Accueil</a> › <a href="?page=produits">Produits</a> › Golden Egg</p>
 
   <section class="fiche-intro">
     <div class="fiche">
@@ -109,10 +50,10 @@
         <p class="sous-titre" style="font-size:18px;font-style:italic">« Pondu par une poule très motivée. »</p>
         <p class="prix">89,00 €</p>
         <p>Coque de chocolat doré, polie à la main pendant onze minutes, numérotée de 001 à 300. À l'intérieur : un bonbon rare tiré au sort, une carte signée par M. Wonka, et un rêve. Le rêve n'est pas materialisé, mais il est bien là.</p>
-        <p>Sur chaque série de 300 œufs, un seul contient un <a href="golden-ticket.html">Golden Ticket</a>. La poule ne sait pas lequel.</p>
+        <p>Sur chaque série de 300 œufs, un seul contient un <a href="?page=golden-ticket">Golden Ticket</a>. La poule ne sait pas lequel.</p>
         <p>
           <button class="btn btn-ticket" onclick="acheterProduit('Golden Egg')">Acheter — 89,00 €</button>
-          <a class="btn btn-bleu" href="produits.html">Retour au catalogue</a>
+          <a class="btn btn-bleu" href="?page=produits">Retour au catalogue</a>
         </p>
       </div>
     </div>
@@ -155,15 +96,15 @@
       <h2 class="titre">Questions sur le Golden Egg</h2>
       <details open>
         <summary>Un Golden Egg contient-il un Golden Ticket ?</summary>
-        <p>Rarement. Sur 300 œufs numérotés, un contient un ticket. Les autres contiennent un bonbon rare et un rêve. Voir la page <a href="golden-ticket.html">Golden Ticket</a>.</p>
+        <p>Rarement. Sur 300 œufs numérotés, un contient un ticket. Les autres contiennent un bonbon rare et un rêve. Voir la page <a href="?page=golden-ticket">Golden Ticket</a>.</p>
       </details>
       <details>
         <summary>Où trouver un Golden Ticket ?</summary>
-        <p>Dans une <a href="wonka-bar.html">Wonka Bar</a> ou dans un Golden Egg. Cinq tickets par an, jamais six.</p>
+        <p>Dans une <a href="?page=wonka-bar">Wonka Bar</a> ou dans un Golden Egg. Cinq tickets par an, jamais six.</p>
       </details>
       <details>
         <summary>Peut-on le revendre ?</summary>
-        <p>Légalement oui. Moralement, l'usine désapprouve fortement. Voir la <a href="faq.html">FAQ générale</a>.</p>
+        <p>Légalement oui. Moralement, l'usine désapprouve fortement. Voir la <a href="?page=faq">FAQ générale</a>.</p>
       </details>
     </div>
 
@@ -179,7 +120,7 @@
         <h3>Wonka Bar</h3>
         <p style="font-size:13px;margin:0 0 6px">La barre qui a rendu cinq enfants célèbres.</p>
         <p class="prix" style="font-size:22px">3,50 €</p>
-        <a class="btn btn-petit" href="wonka-bar.html">Voir la fiche</a>
+        <a class="btn btn-petit" href="?page=wonka-bar">Voir la fiche</a>
       </div>
       <div class="carte">
         <div class="visuel" style="background:#e2c9f5"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
@@ -190,7 +131,7 @@
         <h3>Scrumdiddlyumptious Bar</h3>
         <p style="font-size:13px;margin:0 0 6px">Le mot n'existe pas. Le chocolat si.</p>
         <p class="prix" style="font-size:22px">5,50 €</p>
-        <a class="btn btn-petit" href="scrumdiddlyumptious-bar.html">Voir la fiche</a>
+        <a class="btn btn-petit" href="?page=scrumdiddlyumptious-bar">Voir la fiche</a>
       </div>
       <div class="carte">
         <div class="visuel" style="background:#f4b8d6"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
@@ -204,7 +145,7 @@
         <h3>Everlasting Gobstopper</h3>
         <p style="font-size:13px;margin:0 0 6px">Ça ne fond jamais. Jamais.</p>
         <p class="prix" style="font-size:22px">12,00 €</p>
-        <a class="btn btn-petit" href="everlasting-gobstopper.html">Voir la fiche</a>
+        <a class="btn btn-petit" href="?page=everlasting-gobstopper">Voir la fiche</a>
       </div>
     </div>
   </section>
@@ -222,15 +163,15 @@
     </div>
     <div>
       <h4>Besoin d'aide ?</h4>
-      <p><a href="faq.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
+      <p><a href="?page=faq"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
   <path d="M9 6l6 6l-6 6" />
-</svg> Foire aux questions</a><br><a href="contact.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
+</svg> Foire aux questions</a><br><a href="?page=contact"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
   <path d="M9 6l6 6l-6 6" />
-</svg> Nous contacter</a><br><a href="mentions-legales.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
+</svg> Nous contacter</a><br><a href="?page=mentions-legales"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
   <path d="M9 6l6 6l-6 6" />
-</svg> Mentions légales</a><br><a href="recrutement.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
+</svg> Mentions légales</a><br><a href="?page=recrutement"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
   <path d="M9 6l6 6l-6 6" />
-</svg> Travailler à l'usine</a><br><a href="golden-ticket.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
+</svg> Travailler à l'usine</a><br><a href="?page=golden-ticket"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em;vertical-align:-0.125em">
   <path d="M9 6l6 6l-6 6" />
 </svg> Trouver un Golden Ticket</a></p>
     </div>
@@ -245,5 +186,3 @@ function acheterProduit(nom) {
 }
 
 </script>
-</body>
-</html>

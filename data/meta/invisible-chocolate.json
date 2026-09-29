@@ -1,0 +1,14 @@
+{
+    "title": "Invisible Chocolate - le chocolat que l'on ne voit pas | Wonka",
+    "description": "L'Invisible Chocolate : un chocolat parfaitement invisible, vendu dans une boîte vide. Composition, rareté mythique et avertissements de visibilité.",
+    "author": "Laboratoire Wonka, 4e étage, salle sans fenêtre",
+    "canonical": "https://www.wonka-chocolate-factory.example/invisible-chocolate.html",
+    "og": {
+        "og:type": "product",
+        "og:title": "Invisible Chocolate - 15 € pour quelque chose que vous ne verrez pas",
+        "og:description": "Interdit aux Oompa Loompas. Peut rendre partiellement transparent en cas de consommation excessive.",
+        "og:url": "https://www.wonka-chocolate-factory.example/invisible-chocolate.html",
+        "og:site_name": "Wonka Chocolate Factory",
+        "og:locale": "fr_FR"
+    }
+}

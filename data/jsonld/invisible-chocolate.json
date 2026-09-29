@@ -1,0 +1,75 @@
+[
+    {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Invisible Chocolate",
+        "description": "Chocolat parfaitement invisible, conditionné dans une boîte vide scellée. Saveur intense, visibilité nulle.",
+        "sku": "IC-2011-009",
+        "category": "Confiseries expérimentales",
+        "brand": {
+            "@type": "Brand",
+            "name": "Wonka Chocolate Factory"
+        },
+        "offers": {
+            "@type": "Offer",
+            "url": "https://www.wonka-chocolate-factory.example/invisible-chocolate.html",
+            "priceCurrency": "EUR",
+            "price": "15.00",
+            "availability": "https://schema.org/Discontinued"
+        }
+    },
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "La boîte est-elle vraiment vide ?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Elle contient 40 grammes de chocolat invisible. Nous ne pouvons pas vous le prouver, et vous ne pouvez pas le vérifier."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Comment savoir quand il n'y en a plus ?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Le goût disparaît. C'est le seul indicateur fiable, et il arrive trop tard."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Les produits expérimentaux sont-ils garantis ?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Non. Pour ce produit précis, la garantie est elle aussi invisible."
+                }
+            }
+        ]
+    },
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Accueil",
+                "item": "https://www.wonka-chocolate-factory.example/index.html"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Produits",
+                "item": "https://www.wonka-chocolate-factory.example/produits.html"
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Invisible Chocolate",
+                "item": "https://www.wonka-chocolate-factory.example/invisible-chocolate.html"
+            }
+        ]
+    }
+]

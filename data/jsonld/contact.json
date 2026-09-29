@@ -1,0 +1,21 @@
+[
+    {
+        "@context": "https://schema.org",
+        "@type": "ContactPage",
+        "name": "Contacter la Wonka Chocolate Factory",
+        "url": "https://www.wonka-chocolate-factory.example/contact.html",
+        "mainEntity": {
+            "@type": "Organization",
+            "name": "Wonka Chocolate Factory",
+            "telephone": "01 02 03 04 05",
+            "email": "bonjour@wonka-chocolate-factory.example",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "14 boulevard du Cacao Fou",
+                "addressLocality": "Chocolatville-sur-Rivière",
+                "postalCode": "1971",
+                "addressCountry": "FR"
+            }
+        }
+    }
+]
